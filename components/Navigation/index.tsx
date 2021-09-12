@@ -1,31 +1,41 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'react-i18next'
+import i18next from 'i18next'
 
 const Navigation: React.FC = () => {
+  const { locale, locales, defaultLocale } = useRouter()
+  const { t, i18n } = useTranslation()
+  console.log(i18next.language)
   return (
     <Container>
-      <StyledLink href="/">
+      <Link href="/">
         <Logo>Domaine De Merugat</Logo>
-      </StyledLink>
+      </Link>
       <FlexGrowth />
-      <StyledLink href="/gite">
+      <Link href="/gite">
         <NavItem>Gites</NavItem>
-      </StyledLink>
-      <StyledLink href="/bnb">
+      </Link>
+      <Link href="/bnb">
         <NavItem>BnB</NavItem>
-      </StyledLink>
-      <StyledLink href="/tariffs">
+      </Link>
+      <Link href="/tariffs">
         <NavItem>Tarieven</NavItem>
-      </StyledLink>
+      </Link>
+      <select
+        onChange={(e) => {
+          i18next.changeLanguage(e.target.value)
+        }}
+      >
+        {locales?.map((locale) => (
+          <option key={locale}>{locale}</option>
+        ))}
+      </select>
     </Container>
   )
 }
-
-const StyledLink = styled(Link)`
-  cursor: pointer;
-`
-
 const FlexGrowth = styled.div`
   flex-grow: 1;
 `

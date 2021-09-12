@@ -1,15 +1,13 @@
 import type { NextPage } from 'next'
 import Page from '../components/Page'
-
+import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
+import { useRouter } from 'next/router'
 
 const Tariffs: NextPage = () => {
-  return (
-    <Page>
-        Tarieven
-    </Page>
-  )
+  const { t } = useTranslation('common')
+
+  return <Page>{t('tarrifs.tarrifs')}</Page>
 }
 
 export default Tariffs
-

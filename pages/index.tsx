@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import Page from '../components/Page'
 import Image from 'next/image'
 import front from '../public/img/front-page.jpg'
-
-import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
 const Home: NextPage = () => {
+  const { t } = useTranslation()
   return (
     <Page>
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
@@ -14,7 +14,3 @@ const Home: NextPage = () => {
 }
 
 export default Home
-
-const StyledImage = styled(Image)`
-  /* border-radius: 1.6rem; */
-`
