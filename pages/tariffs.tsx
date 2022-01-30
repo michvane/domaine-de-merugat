@@ -46,10 +46,11 @@ const Tariffs: NextPage = () => {
             <p>
               Ontbijt tot 5 jaar gratis. <br /> Van 5-12 jaar: 10 euro. <br /> Vanaf 13 jaar: 15 euro.
             </p>
+            <p>Aankomst vanaf 16 uur, bij vertrek dient de gîte vrij te zijn om 10 uur. </p>
             <p>
-              Aankomst vanaf 16 uur, bij vertrek dient de gîte vrij te zijn om 10 uur. <br /> Waarborg: 250 € cash te
-              betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na
-              reservering. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
+              Waarborg: 250 € cash te betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen
+              binnen de 7 dagen na reservering. Boeking is definitief na ontvangst van het voorschot. Het saldo dient
+              betaald te worden uiterlijk 8 weken voor aankomst.
             </p>
             <p>Wij aanvaarden geen betaalkaarten.</p>
           </TextDiv>
@@ -72,8 +73,8 @@ const Tariffs: NextPage = () => {
               Prijzen zijn inclusief uitgebreid ontbijt. <br /> Toeristentaks niet inbegrepen. (0,50 € p.p/nacht + 18
               jaar)
             </p>
+            <p>Aankomst vanaf 16u, bij vertrek dient de kamer vrij te zijn om 10 uur. </p>
             <p>
-              Aankomst vanaf 16u, bij vertrek dient de kamer vrij te zijn om 10 uur. <br />
               Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief
               na ontvangst van het voorschot. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
             </p>
