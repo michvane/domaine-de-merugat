@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: 'Roboto Slab';
   }
+
+  p {
+    line-height: 1.6rem
+  }
 `
 
 const theme = {
