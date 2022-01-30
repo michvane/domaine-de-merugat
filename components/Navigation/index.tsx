@@ -18,16 +18,13 @@ const Navigation: React.FC = () => {
         </Link>
         <FlexGrowth />
         <Link href="/gite">
-          <NavItem>Gite</NavItem>
+          <NavItem>Gîte</NavItem>
         </Link>
         <Link href="/bnb">
           <NavItem>B&B</NavItem>
         </Link>
         <Link href="/tariffs">
           <NavItem>Tarieven</NavItem>
-        </Link>
-        <Link href="/over-ons">
-          <NavItem>Over ons</NavItem>
         </Link>
         <Link href="/contact">
           <NavItem>Contact</NavItem>

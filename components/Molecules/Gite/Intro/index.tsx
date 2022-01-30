@@ -7,7 +7,7 @@ const GiteIntro: React.FC = () => {
     <Grid>
       <BlockLeft>
         <SmallTitle>Onze Gite</SmallTitle>
-        <h2>Wij verwelkomen u graag in onze Gite De Merugat</h2>
+        <h2>Wij verwelkomen u graag in onze Gîte De Merugat</h2>
       </BlockLeft>
       <BlockRight>
         <p style={{ lineHeight: '1.6rem' }}>

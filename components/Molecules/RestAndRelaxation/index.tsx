@@ -9,14 +9,15 @@ const RestAndRelaxation: React.FC = () => {
       <BlockRight>
         <SmallTitle>Rust en ontspanning</SmallTitle>
         <p style={{ lineHeight: '1.6rem' }}>
-          Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Zo is er regelmatig
-          zelfgebakken brood en huisbereide confituren. Streekproducten zoals kaas- en charcuterieschotels worden ook
-          regelmatig voorzien van één van de vele lokale markten.
+          Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Onze Gîte en B&B
+          kamer zijn gelegen in een rustige omgeving tussen weilanden en prachtige natuur. De omgeving straalt rust uit,
+          ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve vakantiegangers is Merugat een
+          echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.
         </p>
         <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
-          De omgeving straalt rust uit, ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve
-          vakantiegangers is Merugat een echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw
-          hartje ophalen.
+          S'morgens verwennen we jullie met uigebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt,
+          kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan
+          onze table d'hôtes mits 1 dag op voorhand reserveren.
         </p>
         <Link href={'/bnb'} passHref>
           <StyledLink style={{ marginRight: '1rem' }}>Bekijk de Gîte</StyledLink>

@@ -28,10 +28,12 @@ const Contact: React.FC = () => {
             <FaPhone color={colors.main} style={iconStyle} />
             0033 648 483610
           </Line>
-          <Line>
-            <FaEnvelope color={colors.main} style={iconStyle} />
-            kris.helga@outlook.fr
-          </Line>
+          <a href="mailto:kris.helga@outlook.fr" style={{ textDecoration: 'none', color: 'black' }}>
+            <Line>
+              <FaEnvelope color={colors.main} style={iconStyle} />
+              kris.helga@outlook.fr
+            </Line>
+          </a>
         </BlockRight>
       </Grid>
       <Map />

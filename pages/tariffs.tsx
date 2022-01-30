@@ -44,30 +44,37 @@ const Tariffs: NextPage = () => {
               toeristentaks worden ter plaatse cash afgerekend.
             </p>
             <p>
-              Aankomst vanaf 16 uur, bij vertrek dient de woning vrij te zijn om 10 uur. Waarborg: 250 € cash te betalen
-              bij aankomst. Bij boeking vragen wij een voorschot van 50% van de totale huurprijs. Het saldo dient
-              betaald te worden uiterlijk 2 maand voor aankomst. Wij aanvaarden geen betaalkaarten.
+              Aankomst vanaf 16 uur, bij vertrek dient de woning vrij te zijn om 10 uur. <br /> Waarborg: 250 € cash te
+              betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na
+              reservering. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
             </p>
+            <p>Wij aanvaarden geen betaalkaarten.</p>
           </TextDiv>
           <TextDiv>
             <SmallTitle>PRIJS B&B KAMER 2022</SmallTitle>
             <p>Kamer voor 2 personen</p>
-            <strong>Hoog seizoen van 01/07 tot 31/08/2022</strong>
+            <strong>Hoog seizoen van 01/07/2022 tot 31/08/2022</strong>
             <p>
               Prijs per nacht : 110 € <br />
               Minimum 2 nachten
             </p>
-            <strong>Midden seizoen van 1/6 tot 30/06 en van 01/09 tot 30/09/2022</strong>
+            <strong>Midden seizoen van 1/6/2022 tot 30/06/2022 en van 01/09 tot 30/09/2022</strong>
             <p>
               Prijs per nacht : 99 € <br /> Minimum 2 nachten
             </p>
-            <strong>Laag seizoen van 16/01 tot 31/05 en van 01/10 tot 15/12/2022</strong>
+            <strong>Laag seizoen van 16/01/2022 tot 31/05/2022 en van 01/10/2022 tot 15/12/2022</strong>
             <p>Prijs per nacht : 85 € </p>
-            <strong>Van 16/12 tot 15/01/2023 </strong> <p>Prijs op aanvraag </p>
+            <strong>Van 16/12/2022 tot 15/01/2023 </strong> <p>Prijs op aanvraag </p>
             <p>
               Prijzen zijn inclusief uitgebreid ontbijt. <br /> Toeristentaks niet inbegrepen. (0,50 € p.p/nacht + 18
               jaar)
             </p>
+            <p>
+              Aankomst vanaf 16u, bij vertrek dient de kamer vrij te zijn om 10 uur. <br />
+              Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief
+              na ontvangst van het voorschot. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
+            </p>
+            <p>Wij aanvaarden geen betaalkaarten.</p>
           </TextDiv>
         </Grid>
         <TextDiv>

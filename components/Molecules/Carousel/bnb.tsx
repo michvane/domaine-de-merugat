@@ -9,9 +9,10 @@ import 'swiper/css'
 const images = [
   { src: 'img/bnb/bnb-7.jpg' },
   { src: 'img/bnb/bnb-6.jpg' },
-  { src: 'img/bnb/pool.jpg' },
   { src: 'img/bnb/bnb-4.jpg' },
+  { src: 'img/bnb/bnb-3.jpg' },
   { src: 'img/bnb/food.jpg' },
+  { src: 'img/bnb/pool.jpg' },
 ]
 
 const BnbCarousel: React.FC = () => {

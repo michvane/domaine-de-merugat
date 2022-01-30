@@ -6,8 +6,7 @@ import Container from '../components/Atoms/Container'
 import GiteCarousel from '../components/Molecules/Carousel/gite'
 import GiteIntro from '../components/Molecules/Gite/Intro'
 import GiteInfo from '../components/Molecules/Gite/Info'
-import colors from '../constants/colors'
-import SmallTitle from '../components/Atoms/SmallTitle'
+
 
 const Gite: NextPage = () => {
   return (
