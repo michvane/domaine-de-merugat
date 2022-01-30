@@ -4,8 +4,6 @@ import { Navigation } from 'swiper'
 import 'swiper/css'
 
 const images = [
-  { src: 'img/bed.jpg' },
-  { src: 'img/closet.jpg' },
   { src: 'img/prieel.jpg' },
   { src: 'img/front-view-sm.jpg' },
   { src: 'img/pool-1.jpg' },
