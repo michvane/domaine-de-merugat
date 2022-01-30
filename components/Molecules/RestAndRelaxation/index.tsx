@@ -22,7 +22,7 @@ const RestAndRelaxation: React.FC = () => {
           <StyledLink style={{ marginRight: '1rem' }}>Bekijk de Gîte</StyledLink>
         </Link>
         <Link href={'/bnb'} passHref>
-          <StyledLink>Bekijk de BNB</StyledLink>
+          <StyledLink>Bekijk de B&B</StyledLink>
         </Link>
       </BlockRight>
       <BlockLeft />
