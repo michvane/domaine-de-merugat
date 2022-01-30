@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
 import 'swiper/css'
 
 import { useState } from 'react'
@@ -22,7 +23,6 @@ const CarouselComponent: React.FC = () => {
             width: 640,
             slidesPerView: 1,
           },
-          // when window width is >= 768px
           768: {
             width: 768,
             slidesPerView: 2,
@@ -33,8 +33,9 @@ const CarouselComponent: React.FC = () => {
             spaceBetween: 50,
           },
         }}
+        modules={[Navigation]}
+        navigation
         spaceBetween={50}
-        // slidesPerView={3.8}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
