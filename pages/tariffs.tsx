@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Page from '../components/Page'
+import Page from '../components/Layout'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import { useRouter } from 'next/router'

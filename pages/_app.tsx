@@ -7,6 +7,7 @@ import i18next from 'i18next'
 
 import * as common_en from '../translations/en/common.json'
 import * as common_nl from '../translations/nl/common.json'
+import Layout from '../components/Layout'
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -14,13 +15,12 @@ const GlobalStyle = createGlobalStyle`
     background: #fafafa;
     display:block;
     height: 100%;
-    margin:0 auto;
+    margin:0 0;
     padding: 0;
-    font-size: 62.5%;
   }
 
   body {
-    margin-top: 0;
+    margin: 0;
     font-family: 'Roboto Slab';
   }
 `
@@ -51,7 +51,9 @@ const App = ({ Component, pageProps }: AppProps) => {
     <I18nextProvider i18n={i18next}>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </I18nextProvider>
   )

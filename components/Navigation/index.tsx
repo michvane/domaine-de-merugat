@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
+import Container from '../Atoms/Container'
 
 const Navigation: React.FC = () => {
   const { locale, locales, defaultLocale } = useRouter()
@@ -11,41 +12,47 @@ const Navigation: React.FC = () => {
   console.log(i18next.language)
   return (
     <Container>
-      <Link href="/">
-        <Logo>Domaine De Merugat</Logo>
-      </Link>
-      <FlexGrowth />
-      <Link href="/gite">
-        <NavItem>Gites</NavItem>
-      </Link>
-      <Link href="/bnb">
-        <NavItem>BnB</NavItem>
-      </Link>
-      <Link href="/tariffs">
-        <NavItem>Tarieven</NavItem>
-      </Link>
-      <select
-        onChange={(e) => {
-          i18next.changeLanguage(e.target.value)
-        }}
-      >
-        {locales?.map((locale) => (
-          <option key={locale}>{locale}</option>
-        ))}
-      </select>
+      <Nav>
+        <Link href="/">
+          <Logo>Domaine De Merugat</Logo>
+        </Link>
+        <FlexGrowth />
+        <Link href="/gite">
+          <NavItem>Gites</NavItem>
+        </Link>
+        <Link href="/bnb">
+          <NavItem>BnB</NavItem>
+        </Link>
+        <Link href="/tariffs">
+          <NavItem>Tarieven</NavItem>
+        </Link>
+        <Select
+          onChange={(e) => {
+            i18next.changeLanguage(e.target.value)
+          }}
+        >
+          {locales?.map((locale) => (
+            <option key={locale}>{locale}</option>
+          ))}
+        </Select>
+      </Nav>
     </Container>
   )
 }
+
+const Select = styled.select`
+  margin-left: 1rem;
+`
+
 const FlexGrowth = styled.div`
   flex-grow: 1;
 `
 
-const Container = styled.div`
+const Nav = styled.div`
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: black;
-  margin-bottom: 3.2rem;
   text-transform: uppercase;
 `
 
