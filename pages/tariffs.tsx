@@ -44,6 +44,9 @@ const Tariffs: NextPage = () => {
               toeristentaks worden ter plaatse cash afgerekend.
             </p>
             <p>
+              Ontijt tot 5 jaar gratis. <br /> Van 5-12 jaar: 10 euro. <br /> Vanaf 13 jaar: 15 euro.
+            </p>
+            <p>
               Aankomst vanaf 16 uur, bij vertrek dient de woning vrij te zijn om 10 uur. <br /> Waarborg: 250 € cash te
               betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na
               reservering. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
