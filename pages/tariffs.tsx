@@ -20,32 +20,33 @@ const Tariffs: NextPage = () => {
           <TextDiv>
             <SmallTitle>Prijs Gîte 2022</SmallTitle>
             <p>Gîte voor max 6 personen</p>
-            <strong>Hoogseizoen van 01/07 tot 31/08</strong>
+            <strong>Hoogseizoen van 01/07/2022 tot 31/08/2022</strong>
             <p>
               Enkel te boeken met aankomst en vertrek op zaterdag <br />
               Week : 1100 € <br /> Eindschoonmaak : 50 €
             </p>
-            <strong>Tussenseizoen van 16/06 tot 30/06 en van 01/09 tot 15/09 </strong>
+            <strong>Tussenseizoen van 16/06/2022 tot 30/06/2022 en van 01/09/2022 tot 15/09/2022 </strong>
             <p>
               Week-end : 300 € tot 400 € (2 of 3 nachten)
               <br /> Mid-week : 550 € (4 nachten)
               <br /> Week : 900 €
               <br /> Eindschoonmaak : 50 €
             </p>
-            <strong>Laag seizoen van 01/04 tot 15/06 en van 15/09 tot 15/11 </strong>
+            <strong>Laag seizoen van 01/04/2022 tot 15/06/2022 en van 15/09 tot 15/11/2022 </strong>
             <p>
               Week-end : 250 € tot 350 € (2 of 3 nachten)
               <br /> Mid-week : 500 € (4 nachten)
-              <br /> Week : 800 € Eindschoonmaak : 50 €
+              <br /> Week : 800 € <br />
+              Eindschoonmaak : 50 €
             </p>
             <p>
               Onze prijzen zijn exclusief toeristentaks : 0,50 € p.p/nacht voor + 18 jaar. De eindschoonmaak en
-              toeristentaks worden ter plaatse cash afgerekend.{' '}
+              toeristentaks worden ter plaatse cash afgerekend.
             </p>
             <p>
               Aankomst vanaf 16 uur, bij vertrek dient de woning vrij te zijn om 10 uur. Waarborg: 250 € cash te betalen
               bij aankomst. Bij boeking vragen wij een voorschot van 50% van de totale huurprijs. Het saldo dient
-              betaald te worden uiterlijk 2 maand voor aankomst. Wij aanvaarden geen betaalkaarten.{' '}
+              betaald te worden uiterlijk 2 maand voor aankomst. Wij aanvaarden geen betaalkaarten.
             </p>
           </TextDiv>
           <TextDiv>
@@ -70,14 +71,14 @@ const Tariffs: NextPage = () => {
           </TextDiv>
         </Grid>
         <TextDiv>
-          <SmallTitle> Annulatie voorwaarden</SmallTitle>
+          <SmallTitle>Annulatie voorwaarden</SmallTitle>
           <p>
             Bij annulering van de overeenkomst is de huurder de annuleringskosten verschuldigd die afhankelijk zijn van
             het moment van annulering. <br />
             Tot 8 weken voor de aankomstdag : 50% van de totale huursom. <br />
             Minder dan 8 weken voor de aankomstdag : 100% van de totale huursom.
           </p>
-          <SmallTitle>Corona</SmallTitle>
+          <SmallTitle>Corona maatregelingen</SmallTitle>
           <p>
             Wij hanteren de “Corona Annulatie Garantie” waarbij de reeds betaalde voorschotten en saldo bedragen niet
             verloren gaan in geval van een reisverbod ten gevolge van het coronavirus. De reisdatum kan kosteloos worden

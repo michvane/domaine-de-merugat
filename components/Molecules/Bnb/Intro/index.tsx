@@ -6,8 +6,8 @@ const GiteIntro: React.FC = () => {
   return (
     <Grid>
       <BlockLeft>
-        <SmallTitle>Onze BNB</SmallTitle>
-        <h2>Wij verwelkomen u graag in onze BNB De Merugat</h2>
+        <SmallTitle>Onze B&B</SmallTitle>
+        <h2>Wij verwelkomen u graag in onze B&B De Merugat</h2>
       </BlockLeft>
       <BlockRight>
         <p style={{ lineHeight: '1.6rem' }}>

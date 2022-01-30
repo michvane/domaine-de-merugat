@@ -6,15 +6,25 @@ const GiteInfo: React.FC = () => {
   return (
     <Grid>
       <BlockRight>
-        <SmallTitle>Bezienswaardigheden</SmallTitle>
-        <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
-          Domaine de Merugat Chambre d'Hôtes ligt in Valeilles en biedt een seizoensgebonden buitenzwembad, een tuin en
-          een terras. De accommodatie ligt op 18 km van Villeneuve-sur-Lot en biedt gratis WiFi en
-          privéparkeergelegenheid. De bed & breakfast biedt een continentaal of à-la-carteontbijt. Agen ligt op 36 km
-          van Domaine de Merugat Chambre d'Hôtes en Moissac ligt op 42 km van de accommodatie. De dichtstbijzijnde
-          luchthaven is Agen La Garenne, op 34 km van de accommodatie.
-        </p>
-        <Button>Bekijk meer bezienswaardigheden</Button>
+        <SmallTitle>Praktische info</SmallTitle>
+        <ul>
+          <li>De gite is voorzien voor maximum 6 personen.</li>
+          <li>1 slaapkamer met boxspring bed van 180cm x 200cm</li>
+          <li>1 slaapkamer met boxspring bed van 160cm x 200cm</li>
+          <li>1 slaapkamer met 2x een-persoonsbedden van 90cm x 200cm</li>
+          <li>Badkamer met inloopdouche, lavabo en toilet</li>
+          <li>
+            Keuken met grote koelkast en diepvries gedeelte. Elektrisch fornuis met oven, afwasmachine, microgolf oven
+            en Senseo apparaat
+          </li>
+          <li>Lakens en badhanddoeken in de prijs inbegrepen</li>
+          <li>Opgemaakte bedden bij aankomst</li>
+          <li>Groot overdekt terras met tuinmeubelen en gas-barbeque</li>
+          <li>Zwembad van 10m x 5m</li>
+          <li>Gratis WiFi</li>
+          <li>Petanquebaan</li>
+          <li>Wasmachine en droogkast ter beschikking tegen kleine meerprijs</li>
+        </ul>
       </BlockRight>
       <BlockLeft></BlockLeft>
     </Grid>

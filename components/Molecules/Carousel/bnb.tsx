@@ -7,9 +7,8 @@ import 'swiper/css/scrollbar'
 import 'swiper/css'
 
 const images = [
-  { src: 'img/bnb/bnb-1.jpg' },
-  { src: 'img/bnb/bnb-2.jpg' },
-  { src: 'img/bnb/bnb-5.jpg' },
+  { src: 'img/bnb/bnb-7.jpg' },
+  { src: 'img/bnb/bnb-6.jpg' },
   { src: 'img/bnb/pool.jpg' },
   { src: 'img/bnb/bnb-4.jpg' },
   { src: 'img/bnb/food.jpg' },
@@ -44,7 +43,7 @@ const BnbCarousel: React.FC = () => {
         {images.map((img) => (
           <SwiperSlide key={img.src}>
             <div style={{ pointerEvents: 'none' }}>
-              <img src={img.src} style={{ width: '100%', pointerEvents: 'none' }} />
+              <img src={img.src} style={{ maxWidth: '100%', pointerEvents: 'none' }} />
             </div>
           </SwiperSlide>
         ))}

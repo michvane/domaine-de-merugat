@@ -18,10 +18,10 @@ const Navigation: React.FC = () => {
         </Link>
         <FlexGrowth />
         <Link href="/gite">
-          <NavItem>Gites</NavItem>
+          <NavItem>Gite</NavItem>
         </Link>
         <Link href="/bnb">
-          <NavItem>BnB</NavItem>
+          <NavItem>B&B</NavItem>
         </Link>
         <Link href="/tariffs">
           <NavItem>Tarieven</NavItem>
@@ -32,7 +32,7 @@ const Navigation: React.FC = () => {
         <Link href="/contact">
           <NavItem>Contact</NavItem>
         </Link>
-        <Select
+        {/* <Select
           onChange={(e) => {
             i18next.changeLanguage(e.target.value)
           }}
@@ -40,7 +40,7 @@ const Navigation: React.FC = () => {
           {locales?.map((locale) => (
             <option key={locale}>{locale}</option>
           ))}
-        </Select>
+        </Select> */}
       </Nav>
     </Container>
   )
