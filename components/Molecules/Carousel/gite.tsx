@@ -9,10 +9,10 @@ import 'swiper/css'
 const images = [
   { src: 'img/gite/gite.jpg' },
   { src: 'img/gite/gite-9.jpg' },
-  { src: 'img/gite/gite-8.jpg' },
   { src: 'img/gite/gite-1.jpg' },
   { src: 'img/gite/gite-2.jpg' },
   { src: 'img/gite/gite-3.jpg' },
+  { src: 'img/gite/gite-8.jpg' },
   { src: 'img/gite/gite-4.jpg' },
   { src: 'img/gite/gite-5.jpg' },
   { src: 'img/gite/gite-6.jpg' },
