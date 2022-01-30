@@ -26,7 +26,7 @@ const Home: NextPage = () => {
               maxWidth: '1000px',
             }}
           >
-            Sinds 3 jaar baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen
+            Sinds 2018 baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen
             vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen
             zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie! Heb
             je nog vragen? Aarzel niet ons te contacteren. <br />

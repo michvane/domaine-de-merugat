@@ -44,10 +44,10 @@ const Tariffs: NextPage = () => {
               toeristentaks worden ter plaatse cash afgerekend.
             </p>
             <p>
-              Ontijt tot 5 jaar gratis. <br /> Van 5-12 jaar: 10 euro. <br /> Vanaf 13 jaar: 15 euro.
+              Ontbijt tot 5 jaar gratis. <br /> Van 5-12 jaar: 10 euro. <br /> Vanaf 13 jaar: 15 euro.
             </p>
             <p>
-              Aankomst vanaf 16 uur, bij vertrek dient de woning vrij te zijn om 10 uur. <br /> Waarborg: 250 € cash te
+              Aankomst vanaf 16 uur, bij vertrek dient de gîte vrij te zijn om 10 uur. <br /> Waarborg: 250 € cash te
               betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na
               reservering. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
             </p>
@@ -61,7 +61,7 @@ const Tariffs: NextPage = () => {
               Prijs per nacht : 110 € <br />
               Minimum 2 nachten
             </p>
-            <strong>Midden seizoen van 1/6/2022 tot 30/06/2022 en van 01/09 tot 30/09/2022</strong>
+            <strong>Midden 01/06/2022 tot 30/06/2022 en van 01/09/2022 tot 30/09/2022</strong>
             <p>
               Prijs per nacht : 99 € <br /> Minimum 2 nachten
             </p>
