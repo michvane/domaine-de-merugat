@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
-import front from '../public/img/over-ons/front.jpg'
+import front from '../public/img/over-ons/front-3.jpg'
 import { useTranslation } from 'react-i18next'
 import Container from '../components/Atoms/Container'
 import SmallTitle from '../components/Atoms/SmallTitle'

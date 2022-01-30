@@ -9,7 +9,7 @@ const AboutUs: React.FC = () => {
     <Grid>
       <BlockLeft>
         <SmallTitle>Over ons</SmallTitle>
-        <h2>Helga en Kris verwelkomen u graag op hun domein Merugat in Valeilles.</h2>
+        <h2>Helga en Kris verwelkomen u graag op hun Domaine de Merugat in Valeilles.</h2>
       </BlockLeft>
       <BlockRight>
         <p style={{ marginBottom: '2rem' }}>
