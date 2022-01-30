@@ -19,7 +19,7 @@ const RestAndRelaxation: React.FC = () => {
           kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan
           onze table d'hôtes mits 1 dag op voorhand reserveren.
         </p>
-        <Link href={'/bnb'} passHref>
+        <Link href={'/gite'} passHref>
           <StyledLink style={{ marginRight: '1rem' }}>Bekijk de Gîte</StyledLink>
         </Link>
         <Link href={'/bnb'} passHref>

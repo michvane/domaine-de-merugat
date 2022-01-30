@@ -5,8 +5,9 @@ import 'swiper/css'
 
 const images = [
   { src: 'img/prieel.jpg' },
-  { src: 'img/front-view-sm.jpg' },
   { src: 'img/pool-1.jpg' },
+  { src: 'img/front-view-sm.jpg' },
+  { src: 'img/outside-2.jpg' },
   { src: 'img/outside-1.jpg' },
 ]
 
