@@ -29,6 +29,9 @@ const Navigation: React.FC = () => {
         <Link href="/over-ons">
           <NavItem>Over ons</NavItem>
         </Link>
+        <Link href="/contact">
+          <NavItem>contact</NavItem>
+        </Link>
         <Select
           onChange={(e) => {
             i18next.changeLanguage(e.target.value)
