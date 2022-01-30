@@ -1,15 +1,13 @@
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
+import { Navigation } from 'swiper'
 import 'swiper/css'
-
-import { useState } from 'react'
 
 const images = [
   { src: 'img/bed.jpg' },
   { src: 'img/closet.jpg' },
   { src: 'img/prieel.jpg' },
-  { src: 'img/front-view.jpg' },
+  { src: 'img/front-view-sm.jpg' },
   { src: 'img/pool-1.jpg' },
   { src: 'img/outside-1.jpg' },
 ]
