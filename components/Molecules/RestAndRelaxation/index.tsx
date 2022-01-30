@@ -15,7 +15,7 @@ const RestAndRelaxation: React.FC = () => {
           echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.
         </p>
         <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
-          S'morgens verwennen we jullie met uigebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt,
+          's Morgens verwennen we jullie met uigebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt,
           kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan
           onze table d'hôtes mits 1 dag op voorhand reserveren.
         </p>
