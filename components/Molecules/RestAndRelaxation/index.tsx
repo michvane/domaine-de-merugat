@@ -19,9 +19,7 @@ const RestAndRelaxation: React.FC = () => {
         </p>
         <Button>Bekijk de kamers</Button>
       </BlockRight>
-      <BlockLeft>
-        <img src="/img/front-view.jpg" style={{ width: '100%' }} />
-      </BlockLeft>
+      <BlockLeft>{/* <img src="/img/front-view.jpg" style={{ width: '100%' }} /> */}</BlockLeft>
     </Grid>
   )
 }
@@ -44,7 +42,11 @@ const BlockRight = styled.div`
 `
 
 const BlockLeft = styled.div`
-  /* padding: 3rem; */
+  height: 100%;
+  background-image: url('/img/front-view.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `
 
 export default RestAndRelaxation

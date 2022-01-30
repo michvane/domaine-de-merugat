@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import colors from '../../../constants/colors'
 
 const reviews = [
   {
@@ -38,8 +39,10 @@ const Grid = styled.div`
 `
 
 const ReviewContainer = styled.div`
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border-radius: 1rem;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  /* border: 1px solid grey; */
+  background-color: ${colors.main}15;
+  /* border-radius: 1rem; */
   padding: 1rem 2rem;
 `
 

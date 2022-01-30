@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import Container from '../components/Atoms/Container'
 import Reviews from '../components/Molecules/Reviews'
-import AboutUs from '../components/Molecules/Reviews/AboutUs'
+import AboutUs from '../components/Molecules/AboutUs'
 import Carousel from '../components/Molecules/Carousel'
 import RestAndRelaxation from '../components/Molecules/RestAndRelaxation'
 

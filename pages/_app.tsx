@@ -12,7 +12,7 @@ import Layout from '../components/Layout'
 const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
-    background: #fafafa;
+    background: white;
     display:block;
     height: 100%;
     margin:0 0;

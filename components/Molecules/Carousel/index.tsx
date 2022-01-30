@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+
 import { useState } from 'react'
 
 const images = [
-  {
-    src: 'img/bed.jpg',
-  },
+  { src: 'img/bed.jpg' },
   { src: 'img/closet.jpg' },
   { src: 'img/prieel.jpg' },
   { src: 'img/front-view.jpg' },
@@ -18,14 +17,32 @@ const CarouselComponent: React.FC = () => {
   return (
     <StyledCarousel>
       <Swiper
+        breakpoints={{
+          640: {
+            width: 640,
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            width: 768,
+            slidesPerView: 2,
+          },
+          1200: {
+            width: 1200,
+            slidesPerView: 3.2,
+            spaceBetween: 50,
+          },
+        }}
         spaceBetween={50}
-        slidesPerView={3}
+        // slidesPerView={3.8}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {images.map((img) => (
           <SwiperSlide key={img.src}>
-            <Image src={img.src} />
+            <div style={{ pointerEvents: 'none' }}>
+              <img src={img.src} style={{ width: '100%', pointerEvents: 'none' }} />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -36,11 +53,7 @@ const CarouselComponent: React.FC = () => {
 const StyledCarousel = styled.div`
   width: 100%;
   margin-bottom: 4rem;
-  /* overflow-x: scroll; */
-`
-
-const Image = styled.img`
-  height: 300px;
+  cursor: 'pointer';
 `
 
 export default CarouselComponent

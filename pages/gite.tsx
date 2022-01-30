@@ -5,9 +5,9 @@ import styled from 'styled-components'
 
 const Gite: NextPage = () => {
   return (
-    <Page>
+    <>
       Gite
-    </Page>
+    </>
   )
 }
 
