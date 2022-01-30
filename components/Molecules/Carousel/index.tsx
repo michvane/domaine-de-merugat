@@ -36,6 +36,7 @@ const CarouselComponent: React.FC = () => {
         spaceBetween={50}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
+        autoplay
       >
         {images.map((img) => (
           <SwiperSlide key={img.src}>
