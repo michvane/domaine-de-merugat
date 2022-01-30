@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
       <Container>
         <AboutUs />
-        <Carousel />
+        {/* <Carousel /> */}
         <RestAndRelaxation />
         <Reviews />
       </Container>
