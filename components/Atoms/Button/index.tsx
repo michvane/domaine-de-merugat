@@ -20,4 +20,19 @@ const StyledButton = styled.button`
   }
 `
 
+export const StyledLink = styled.a`
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: ${colors.main};
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    transition: background-color 0.3s;
+    background-color: ${colors.main}75;
+  }
+`
+
 export default Button

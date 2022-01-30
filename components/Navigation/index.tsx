@@ -30,7 +30,7 @@ const Navigation: React.FC = () => {
           <NavItem>Over ons</NavItem>
         </Link>
         <Link href="/contact">
-          <NavItem>contact</NavItem>
+          <NavItem>Contact</NavItem>
         </Link>
         <Select
           onChange={(e) => {
@@ -64,6 +64,7 @@ const Nav = styled.div`
 
 const NavItem = styled.div`
   margin-left: 1.6rem;
+  font-size: 1rem;
   cursor: pointer;
 `
 

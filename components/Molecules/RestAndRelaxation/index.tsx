@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
-import Button from '../../Atoms/Button'
+import { StyledLink } from '../../Atoms/Button'
+import Link from 'next/link'
 
 const RestAndRelaxation: React.FC = () => {
   return (
@@ -17,9 +18,14 @@ const RestAndRelaxation: React.FC = () => {
           vakantiegangers is Merugat een echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw
           hartje ophalen.
         </p>
-        <Button>Bekijk de kamers</Button>
+        <Link href={'/bnb'} passHref>
+          <StyledLink style={{ marginRight: '1rem' }}>Bekijk de Gîte</StyledLink>
+        </Link>
+        <Link href={'/bnb'} passHref>
+          <StyledLink>Bekijk de BNB</StyledLink>
+        </Link>
       </BlockRight>
-      <BlockLeft>{/* <img src="/img/front-view.jpg" style={{ width: '100%' }} /> */}</BlockLeft>
+      <BlockLeft />
     </Grid>
   )
 }

@@ -1,6 +1,8 @@
+import Link from 'next/link'
+import React from 'react'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
-import Button from '../../Atoms/Button'
+import { StyledLink } from '../../Atoms/Button'
 
 const AboutUs: React.FC = () => {
   return (
@@ -15,7 +17,9 @@ const AboutUs: React.FC = () => {
           zelfgebakken brood en huisbereide confituren. Streekproducten zoals kaas- en charcuterieschotels worden ook
           regelmatig voorzien van één van de vele lokale markten.
         </p>
-        <Button>Lees meer</Button>
+        <Link href="/over-ons">
+          <StyledLink>Lees meer</StyledLink>
+        </Link>
       </BlockRight>
     </Grid>
   )

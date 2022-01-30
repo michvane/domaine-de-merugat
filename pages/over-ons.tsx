@@ -12,8 +12,7 @@ const Home: NextPage = () => {
     <>
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
       <Container>
-        <div style={{ backgroundColor: `${colors.main}15`, marginBottom: '2rem' }}>
-          <Container>
+        <div style={{ backgroundColor: `${colors.main}15`, marginBottom: '2rem', padding: '2rem' }}>
             <SmallTitle>Over ons</SmallTitle>
             <p>
               Na 27 jaar een hectisch leven geleid te hebben als zelfstandige, waren we dringend toe aan een rustiger
@@ -30,11 +29,9 @@ const Home: NextPage = () => {
               dan doen wij dat graag voor jullie! Heb je nog vragen? Aarzel niet ons te contacteren. We hopen jullie
               hier in Domaine de Merugat te mogen verwelkomen! Welkom! Kris en Helga
             </p>
-          </Container>
         </div>
 
-        <div style={{ backgroundColor: `${colors.main}15` }}>
-          <Container>
+        <div style={{ backgroundColor: `${colors.main}15`, padding: '2rem' }}>
             <SmallTitle>Omgeving</SmallTitle>
             <p>
               Domaine de Merugat is gelegen in de prachtige natuur van de Tarn-et-Garonne streek, te midden van bos en
@@ -44,7 +41,6 @@ const Home: NextPage = () => {
               Agen ligt op 36 km van Domaine de Merugat Chambre d'Hôtes en Moissac ligt op 42 km van de accommodatie. De
               dichtstbijzijnde luchthaven is Agen La Garenne, op 34 km van de accommodatie.
             </p>
-          </Container>
         </div>
       </Container>
     </>
