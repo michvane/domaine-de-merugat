@@ -76,7 +76,7 @@ const Tariffs: NextPage = () => {
             <p>Aankomst vanaf 16u, bij vertrek dient de kamer vrij te zijn om 10 uur. </p>
             <p>
               Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief
-              na ontvangst van het voorschot. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
+              na ontvangst van het voorschot.<br /> Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.
             </p>
             <p>Wij aanvaarden geen betaalkaarten.</p>
           </TextDiv>
