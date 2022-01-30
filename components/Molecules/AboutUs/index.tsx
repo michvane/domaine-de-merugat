@@ -12,7 +12,7 @@ const AboutUs: React.FC = () => {
         <h2>Helga en Kris verwelkomen u graag op hun domein Merugat in Valeilles.</h2>
       </BlockLeft>
       <BlockRight>
-        <p style={{ marginBottom: '1rem' }}>
+        <p style={{ marginBottom: '2rem' }}>
           Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Zo is er regelmatig
           zelfgebakken brood en huisbereide confituren. Streekproducten zoals kaas- en charcuterieschotels worden ook
           regelmatig voorzien van één van de vele lokale markten.
