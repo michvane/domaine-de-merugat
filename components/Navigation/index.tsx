@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 import Container from '../Atoms/Container'
+import { mq } from 'constants/mediaQueries'
 
 const Navigation: React.FC = () => {
   const { locale, locales, defaultLocale } = useRouter()
@@ -57,12 +58,21 @@ const Nav = styled.div`
   font-weight: 500;
   color: black;
   text-transform: uppercase;
+  flex-direction: column;
+
+  @media (min-width: ${mq.mobile}) {
+    flex-direction: row;
+  }
 `
 
 const NavItem = styled.div`
-  margin-left: 1.6rem;
+  margin-left: 0;
   font-size: 1rem;
   cursor: pointer;
+
+  @media (min-width: ${mq.mobile}) {
+    margin-left: 1.6rem;
+  }
 `
 
 const Logo = styled.div`

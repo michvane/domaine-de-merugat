@@ -1,3 +1,4 @@
+import { mq } from 'constants/mediaQueries'
 import Link from 'next/link'
 import React from 'react'
 import styled from 'styled-components'
@@ -33,17 +34,28 @@ const SmallTitle = styled.p`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr;
   margin-bottom: 4rem;
+
+  @media (min-width: ${mq.mobile}) {
+    grid-template-columns: 40% 60%;
+  }
 `
 
 const BlockRight = styled.div`
-  padding: 3rem;
+  padding: 1rem;
   background-color: ${colors.main}15;
+
+  @media (min-width: ${mq.mobile}) {
+    padding: 3rem;
+  }
 `
 
 const BlockLeft = styled.div`
-  padding: 3rem;
+  padding: 1rem;
+  @media (min-width: ${mq.mobile}) {
+    padding: 3rem;
+  }
 `
 
 export default AboutUs

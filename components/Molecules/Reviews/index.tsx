@@ -1,3 +1,4 @@
+import { mq } from 'constants/mediaQueries'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
 
@@ -34,15 +35,16 @@ const Reviews: React.FC = () => {
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
+
+  @media (min-width: ${mq.mobile}) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 
 const ReviewContainer = styled.div`
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-  /* border: 1px solid grey; */
   background-color: ${colors.main}15;
-  /* border-radius: 1rem; */
   padding: 1rem 2rem;
 `
 

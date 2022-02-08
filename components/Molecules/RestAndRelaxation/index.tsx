@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import colors from '../../../constants/colors'
 import { StyledLink } from '../../Atoms/Button'
 import Link from 'next/link'
+import { mq } from 'constants/mediaQueries'
 
 const RestAndRelaxation: React.FC = () => {
   return (
@@ -19,17 +20,24 @@ const RestAndRelaxation: React.FC = () => {
           kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan
           onze table d'hôtes mits 1 dag op voorhand reserveren.
         </p>
-        <Link href={'/gite'} passHref>
-          <StyledLink style={{ marginRight: '1rem' }}>Bekijk de Gîte</StyledLink>
-        </Link>
-        <Link href={'/bnb'} passHref>
-          <StyledLink>Bekijk de B&B</StyledLink>
-        </Link>
+        <LinkGrid>
+          <Link href={'/gite'} passHref>
+            <StyledLink>Bekijk de Gîte</StyledLink>
+          </Link>
+          <Link href={'/bnb'} passHref>
+            <StyledLink>Bekijk de B&B</StyledLink>
+          </Link>
+        </LinkGrid>
       </BlockRight>
       <BlockLeft />
     </Grid>
   )
 }
+
+const LinkGrid = styled.div`
+  display: grid;
+  grid-gap: 1rem;
+`
 
 const SmallTitle = styled.p`
   color: ${colors.main};
@@ -39,13 +47,20 @@ const SmallTitle = styled.p`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr;
   margin-bottom: 4rem;
+
+  @media (min-width: ${mq.tablet}) {
+    grid-template-columns: 40% 60%;
+  }
 `
 
 const BlockRight = styled.div`
-  padding: 3rem;
+  padding: 1rem;
   background-color: ${colors.main}15;
+  @media (min-width: ${mq.mobile}) {
+    padding: 3rem;
+  }
 `
 
 const BlockLeft = styled.div`

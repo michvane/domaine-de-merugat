@@ -21,6 +21,7 @@ const StyledButton = styled.button`
 `
 
 export const StyledLink = styled.a`
+  text-align: center;
   padding: 1rem 1.5rem;
   border: none;
   background-color: ${colors.main};
