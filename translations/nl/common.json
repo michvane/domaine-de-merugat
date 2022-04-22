@@ -83,5 +83,9 @@
     "contact": {
         "title": "Contact",
         "subtitle": "Heeft u vragen of wilt u een boeking doen? <br /> Neem contact met ons op!"
+    },
+    "nav": {
+        "tarrifs": "Tarieven",
+        "gite": "B&B"
     }
 }
