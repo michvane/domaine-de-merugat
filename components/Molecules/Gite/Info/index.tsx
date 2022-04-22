@@ -1,32 +1,31 @@
+import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
-import Button from '../../../Atoms/Button'
 
 const GiteInfo: React.FC = () => {
+  const { t } = useTranslation('common')
+
   return (
     <Grid>
       <BlockRight>
-        <SmallTitle>Praktische info</SmallTitle>
+        <SmallTitle>{t('gite.info.title')}</SmallTitle>
         <ul>
-          <li>De gîte is voorzien voor maximum 6 personen.</li>
-          <li>1 slaapkamer met boxspring bed van 180cm x 200cm</li>
-          <li>1 slaapkamer met boxspring bed van 160cm x 200cm</li>
-          <li>1 slaapkamer met 2 éénpersoonsbedden van 90cm x 200cm</li>
-          <li>Badkamer met inloopdouche, lavabo en toilet</li>
-          <li>
-            Keuken met grote koelkast en diepvries gedeelte. Elektrisch fornuis met oven, afwasmachine, microgolf oven
-            en Senseo apparaat
-          </li>
-          <li>Lakens, badhanddoeken en keukenhanddoeken in de prijs inbegrepen</li>
-          <li>Opgemaakte bedden bij aankomst</li>
-          <li>Groot overdekt terras met tuinmeubelen en gas-barbeque</li>
-          <li>Zwembad van 10m x 5m</li>
-          <li>Gratis WiFi</li>
-          <li>Petanquebaan</li>
-          <li>Wasmachine en droogkast ter beschikking tegen kleine meerprijs</li>
-          <li>Aankomst vanaf 16u. Gîte verlaten op de dag van vertrek voor 10u</li>
-          <li>Huisdieren niet toegelaten.</li>
-          <li>Roken in de gîte is niet toegestaan</li>
+          <li>{t('gite.info.item1')}</li>
+          <li>{t('gite.info.item2')}</li>
+          <li>{t('gite.info.item3')}</li>
+          <li>{t('gite.info.item4')}</li>
+          <li>{t('gite.info.item5')}</li>
+          <li>{t('gite.info.item6')}</li>
+          <li>{t('gite.info.item7')}</li>
+          <li>{t('gite.info.item8')}</li>
+          <li>{t('gite.info.item9')}</li>
+          <li>{t('gite.info.item10')}</li>
+          <li>{t('gite.info.item11')}</li>
+          <li>{t('gite.info.item12')}</li>
+          <li>{t('gite.info.item13')}</li>
+          <li>{t('gite.info.item14')}</li>
+          <li>{t('gite.info.item15')}</li>
+          <li>{t('gite.info.item16')}</li>
         </ul>
       </BlockRight>
       <BlockLeft></BlockLeft>

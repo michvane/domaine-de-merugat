@@ -2,17 +2,22 @@ import React from 'react'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
+import { useTranslation } from 'react-i18next'
 
 const iconStyle = { marginRight: '1rem' }
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation('common')
+
   return (
     <>
       <Grid>
         <BlockLeft>
           <SmallTitle>Contact</SmallTitle>
-          <h2>
-            Heeft u vragen of wilt u een boeking doen? <br /> Neem contact met ons op!
+          <h2 data-i18n="[html]contact.subtitle">
+            <div dangerouslySetInnerHTML={
+                {__html: t('contact.subtitle', {interpolation: {escapeValue: false}})}
+            } />
           </h2>
         </BlockLeft>
         <BlockRight>

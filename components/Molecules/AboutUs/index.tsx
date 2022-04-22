@@ -1,26 +1,21 @@
 import { mq } from 'constants/mediaQueries'
 import Link from 'next/link'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
 import { StyledLink } from '../../Atoms/Button'
 
 const AboutUs: React.FC = () => {
+  const { t } = useTranslation('common')
   return (
     <Grid>
       <BlockLeft>
-        <SmallTitle>Over ons</SmallTitle>
-        <h2>Helga en Kris verwelkomen u graag op hun Domaine de Merugat in Valeilles.</h2>
+        <SmallTitle>{t('home.about-us.about-us')}</SmallTitle>
+        <h2>{t('home.about-us.welcome')}</h2>
       </BlockLeft>
       <BlockRight>
-        <p>
-          Na 27 jaar een hectisch leven geleid te hebben als zelfstandige, waren we dringend toe aan een rustiger leven.
-          Vier jaar geleden toen we in de Tarn-et-Garonne streek met vakantie waren, gebeurde het, we werden verliefd.
-          Verliefd op deze streek. We waren overweldigd door de mooie natuur, de uitgestrekte velden en de pittoreske
-          kleine dorpjes. Maar wat ons vooral opviel, was de stilte. En te midden van deze overweldigende natuur, vonden
-          we onze droomplek: "Domaine de Merugat". We hebben niet geaarzeld, dit was de plaats waar we ons leven verder
-          wilden zetten! En we willen graag deze heerlijke plek met jullie delen!
-        </p>
+        <p>{t('home.about-us.block-right')}</p>
       </BlockRight>
     </Grid>
   )

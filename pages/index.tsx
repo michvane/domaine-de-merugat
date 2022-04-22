@@ -7,8 +7,11 @@ import AboutUs from '../components/Molecules/AboutUs'
 import Carousel from '../components/Molecules/Carousel'
 import RestAndRelaxation from '../components/Molecules/RestAndRelaxation'
 import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
 const Home: NextPage = () => {
+  const { t } = useTranslation('common')
+
   return (
     <>
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
@@ -26,11 +29,8 @@ const Home: NextPage = () => {
               maxWidth: '1000px',
             }}
           >
-            Sinds 2018 baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen
-            vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen
-            zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie! Heb
-            je nog vragen? Aarzel niet ons te contacteren. <br />
-            We hopen jullie hier in Domaine de Merugat te mogen verwelkomen!
+            {t('home.interlude.block-one')}<br />
+            {t('home.interlude.block-two')}
           </p>
         </Intermediary>
         <Reviews />

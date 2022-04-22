@@ -3,29 +3,27 @@ import colors from '../../../constants/colors'
 import { StyledLink } from '../../Atoms/Button'
 import Link from 'next/link'
 import { mq } from 'constants/mediaQueries'
+import { useTranslation } from 'react-i18next'
 
 const RestAndRelaxation: React.FC = () => {
+  const { t } = useTranslation('common')
+
   return (
     <Grid>
       <BlockRight>
-        <SmallTitle>Rust en ontspanning</SmallTitle>
+        <SmallTitle>{t('home.rest.title')}</SmallTitle>
         <p style={{ lineHeight: '1.6rem' }}>
-          Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Onze Gîte en B&B
-          kamer zijn gelegen in een rustige omgeving tussen weilanden en prachtige natuur. De omgeving straalt rust uit,
-          ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve vakantiegangers is Merugat een
-          echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.
+        {t('home.rest.block-one')}
         </p>
         <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
-          's Morgens verwennen we jullie met uigebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt,
-          kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan
-          onze table d'hôtes mits 1 dag op voorhand reserveren.
+        {t('home.rest.block-two')}
         </p>
         <LinkGrid>
           <Link href={'/gite'} passHref>
-            <StyledLink>Bekijk de Gîte</StyledLink>
+            <StyledLink>{t('home.rest.gite')}</StyledLink>
           </Link>
           <Link href={'/bnb'} passHref>
-            <StyledLink>Bekijk de B&B</StyledLink>
+            <StyledLink>{t('home.rest.bnb')}</StyledLink>
           </Link>
         </LinkGrid>
       </BlockRight>

@@ -10,7 +10,6 @@ import { mq } from 'constants/mediaQueries'
 const Navigation: React.FC = () => {
   const { locale, locales, defaultLocale } = useRouter()
   const { t, i18n } = useTranslation()
-  console.log(i18next.language)
   return (
     <Container>
       <Nav>
@@ -30,7 +29,7 @@ const Navigation: React.FC = () => {
         <Link href="/contact">
           <NavItem>Contact</NavItem>
         </Link>
-        {/* <Select
+        <Select
           onChange={(e) => {
             i18next.changeLanguage(e.target.value)
           }}
@@ -38,7 +37,7 @@ const Navigation: React.FC = () => {
           {locales?.map((locale) => (
             <option key={locale}>{locale}</option>
           ))}
-        </Select> */}
+        </Select>
       </Nav>
     </Container>
   )

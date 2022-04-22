@@ -7,6 +7,8 @@ import i18next from 'i18next'
 
 import * as common_en from '../translations/en/common.json'
 import * as common_nl from '../translations/nl/common.json'
+import * as common_fr from '../translations/fr/common.json'
+
 import Layout from '../components/Layout'
 
 const GlobalStyle = createGlobalStyle`
@@ -37,13 +39,13 @@ const theme = {
 
 const App = ({ Component, pageProps }: AppProps) => {
   const { locale, defaultLocale } = useRouter()
-
+  console.log(locale)
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: locale || defaultLocale,
+    lng: locale || 'nl',
     resources: {
-      en: {
-        common: common_en,
+      fr: {
+        common: common_fr,
       },
       nl: {
         common: common_nl,

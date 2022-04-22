@@ -1,0 +1,87 @@
+{
+    "home": {
+        "about-us": {
+            "about-us": "Qui sommes-nous",
+            "welcome": "Helga et Kris sont heureux de vous accueillir dans leur Domaine de Merugat à Valeilles.",
+            "block-right": "Après 27 années passées à la tête d'un commerce important situé dans une grande ville en Belgique, nous aspirons à une vie plus calme. Il y a 4 ans, nous avons séjourné en Tarn-et-Garonne et nous sommes “tombés amoureux” de cette belle région du Sud Ouest, aux portes du Quercy, de la Dordogne et du Lot-et-Garonne. Nous avons été conquis par ces paysages vallonnés, ces vastes champs et tous ces petits villages pittoresques dont nombreux sont labellisés “Plus beaux villages de France”. Mais surtout, nous y avons ressenti un immense bien être dû à la quiétude du lieu oû les seuls bruits sont les champs des oiseaux. Dans cet “écrin de verdure” nous avons trouvé un havre de paix permettant de se resoucer physiquement et psycholigiquement. Nous n'avons pas hésité, nous avons choisi d'y continuer notre vie et de permettre à  d'autres de la découvrir en aménageant gîte et chambre d'hôtes."
+        },
+        "rest": {
+            "title": "REPOS ET RELAXATION",
+            "block-one": "Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Onze Gîte en B&B kamer zijn gelegen in een rustige omgeving tussen weilanden en prachtige natuur. De omgeving straalt rust uit, ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve vakantiegangers is Merugat een echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.",
+            "block-two": "'s Morgens verwennen we jullie met uigebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt, kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan onze table d'hôtes mits 1 dag op voorhand reserveren.",
+            "gite": "Voir le gîte",
+            "bnb": "Voir le chambres d'hôte"
+        },
+        "interlude": {
+            "block-one": "Sinds 2018 baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie! Heb je nog vragen? Aarzel niet ons te contacteren.",
+            "block-two": "We hopen jullie hier in Domaine de Merugat te mogen verwelkomen!"
+        },
+        "reviews": {
+            "title": "Wat onze gasten vinden",
+            "katinka": "“We hebben een geweldige tijd gehad. Ik Kan het iedereen aanraden! Zeer schoon, heerlijk ontbijt en zeer aardige en gezellige gastheer en gastvrouw.”",
+            "dominique": "“Mooie omgeving. Prachtig zwembad met hoogwaardige diensten (parasol, handdoeken, ligstoelen) in een perfect onderhouden gebied. Bijzonder vriendelijk welkom van de gastheren. Ontbijt van 4 sterren. Diner mogelijk en redelijk geprijsd.”",
+            "michel": "“Uitstekende bed and breakfast. uitstekend welkom. Geweldig ontbijt. Verfijnd huis. Niets om over te klagen. Gelegen op het platteland, zeer rustig, het is beter om een GPS om dit mooie huis te vinden ...”"
+        }
+    },
+    "gite": {
+        "welcome": {
+            "title": "NOTRE GÎTE",
+            "subtitle": "Nous vous souhaitons la bienvenue dans notre Gîte De Merugat",
+            "text": "Nous sommes heureux de vous annoncer que notre gîte à été classé en 2021 avec 3 étoiles. Notre gîte pour 6 personnes se compose de 3 chambres, une cuisine bien équipée, une salle de bain avec douche à l'Italienne, lavabo et wc. Sous la grande terrasse couverte vous avez une vue magnifique sur notre grand jardin avec sa piscine de 10 x 5 m. Pour les amateurs, nous avons installé un boulodrome."
+        },
+        "info": {
+            "title": "INFORMATIONS PRATIQUES",
+            "item1": "Capacité : 3 chambres, 6 personnes",
+            "item2": "1 chambre avec grand lit double de 180cm x 200cm",
+            "item3": "1 chambre avec grand lit double de 160cm x 200cm",
+            "item4": "1 chambre avec 2 lits simples de 90cm x 200cm",
+            "item5": "Salle de bain avec douche à l'Italienne, lavabo et wc",
+            "item6": "Cuisine avec lave vaisselle, frigo avec congélateur, four et four micro-onde",
+            "item7": "Draps de lit, couettes et serviettes de bain compris",
+            "item8": "Lits faits à l'arrivée",
+            "item9": "Grande terrasse couverte avec meubles de jardin et barbecue",
+            "item10": "Piscine de 10 x 5 m avec chaises longues es parasols",
+            "item11": "Wifi gratuit",
+            "item12": "Boulodrome",
+            "item13": "Lave linge et sêche linge collectif (5 Euro)",
+            "item14": "Arrivée: à partir de 16h. Départ: avant 10h",
+            "item15": "Animaux non acceptés",
+            "item16": "Notre gîte est non-fumeur"
+        }
+    },
+    "bnb": {
+        "welcome": {
+            "title": "CHAMBE D'HÔTES",
+            "subtitle": "Nous vous souhaitons la bienvenue dans notre chambres d'hôte De Merugat",
+            "text": "Vous logez sous le pigeonnier,dans une grande chambre romantiques aux charpentes authentiques. (35m2) La salle de bain privative à été récemment rénovée et se compose d'une douche, lavabo et wc. La chambre d'hôtes avec entrée privée est entièrement située au rez-de chaussée. Le matin, nous vous gâtons avec un petit déjeuner copieux avec du pain frais, des confitures maison et de délicieux produits régionaux. Vous pouvez profiter du jardin paysager avec piscine de 10 x 5 m."
+        },
+        "info": {
+            "title": "INFORMATIONS PRATIQUES",
+            "item1": "Grande chambre romantique avec charpentes authentiques avec grand lit double de 180cm x 200cm",
+            "item2": "Salle de bain privé rénovée recemment avec douche, lavabo et wc",
+            "item3": "Acces privé",
+            "item4": "Draps, couettes et serviettes de bain compris",
+            "item5": "Wifi gratuit",
+            "item6": "Copieux petit déjeuner avec pain frais, confitures maison et produits locaux",
+            "item7": "Grand jardin avec piscine de 10 x 5m, chaises longues et parasols",
+            "item8": "Arrivée à partir de 16h. Merci de libérer la chambre au plus tard à 10h",
+            "item9": "Animaux non admis",
+            "item10": "Il est interdit de fumer dans la chambre"
+        }
+    },
+    "tarrifs": {
+        "tarrifs": "TARIFS",
+        "price-gite": "TARIFS GÎTE 2022",
+        "block1": "<p>Gîte maximum pour 6 personnes</p><strong>Haute saison du 01/07/2022 au 31/08/2022</strong><p>En haute saison seulement avec arrivée et départ le samedi <br />  Semaine : 1100 € <br /> Forfait ménage en fin séjour : 50 €</p><strong>Mi- saison du 16/06/2022 au 30/06/2022 et du 01/09/2022 au 15/09/2022</strong><p>  Week-end : de 300 € à 400 € (2 ou 3 nuits) <br /> Mid-week : 550 € (4 nuits)  <br /> Semaine : 900 €  <br /> Forfait ménage en fin séjour : 50 €</p><strong>Basse saison du 01/04/2022 au 15/06/2022 et du 16/09/2022 au 31/10/2022 </strong><p>  Week-end : de 250 € à 350 € (2 ou 3 nuits) <br /> Mid-week : 500 € (4 nuits)  <br /> Semaine : 800 € <br />  Forfait ménage en fin séjour : 50 €</p><p>  Non compris: Taxe de séjour : 0,50 € p.p/nuit pour les personnes + 18 ans. Le ménage de fin de séjour et la taxe de séjour sont à régler en espèces sur place.</p><p> Petit déjeuner: <br /> De 0 à 5 ans : gratuit <br /> Van De 5 à 12 ans : 10 € <br /> A partir de 13 ans : 15 €</p><p>Arrivée à partir de 16h. Le gîte doît être libéré le jour du départ au plus tard à 10h. </p><p> Caution: 250 € à régler en espèces à l'arrivée. <br /> Acompte : 50% du loyer total à payer dans les 7 jours suivant la réservation. La réservation est définitive après réception de l'acompte. Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
+        "price-bnb": "PRIX CHAMBRE D'HÔTES 2022",
+        "block2": "<p>Chambre pour 2 personnes</p><strong>Haute saison du 01/07/2022 au 31/08/2022</strong><p>  Prix par nuit : 110 € <br />  Minimum 2 nuits</p><strong>Mi-saison du 01/06/2022 au 30/06/2022 et du 01/09/2022 au 30/09/2022</strong><p>  Prix par nuit : 99 € <br /> Minimum 2 nuits</p><strong>Basse saison du 16/01/2022 au 31/05/2022 et du 01/10/2022 au 15/12/2022</strong><p>Prix par nuit : 85 €</p><strong>Du 16/12/2022 au 15/01/2023 </strong> <p>Prix sur demande. </p><p>  Nos prix incluent le petit déjeuner copieux. <br /> Non compris: Taxe de séjour : 0,50 € p.p/nuit pour les +18 ans</p><p>Arrivée : à partir de 16h. La chambre doît être libérée le jour du départ au plus tard à 10h. </p><p>  Acompte : 50% du loyer total à payer dans les 7 jours après réservation. La réservation est définitive après réception de l'acompte.<br /> Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
+        "cancel-title": "CONDITIONS D' ANNULATION",
+        "cancel-text": "En cas d'annulation du contrat les sommes retenues dépendront du moment d'annulation.<br />Jusqu'à 8 semaines avant votre arrivée : 50% du loyer total. <br />Moins de 8 semaines avant votre arrivée : 100% du loyer total.",
+        "covid-title": "GARANTIE ANNULATION CORONA",
+        "covid-text": "Nous utilisons la “Garantie Annulation Corona” grâce à laquelle les avances et soldes déjà versés ne sont pas perdus en cas d'interdiction de voyager en raison du Coronavirus. La date de voyage peut être modifiée sans frais dans la même classe de réservation et selon les disponibilités."
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Vous avez des questions ou vous souhaitez effectuer une réservation ? <br /> Contactez-nous!"
+    }
+}
