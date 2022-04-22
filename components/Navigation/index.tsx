@@ -3,13 +3,13 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
-import i18next from 'i18next'
 import Container from '../Atoms/Container'
 import { mq } from 'constants/mediaQueries'
 
 const Navigation: React.FC = () => {
-  const { locale, locales, defaultLocale } = useRouter()
-  const { t, i18n } = useTranslation()
+  const router = useRouter()
+  const { locale, locales, pathname, asPath, query  } = router
+  const { t } = useTranslation('common')
   return (
     <Container>
       <Nav>
@@ -21,18 +21,19 @@ const Navigation: React.FC = () => {
           <NavItem>Gîte</NavItem>
         </Link>
         <Link href="/bnb">
-          <NavItem>B&B</NavItem>
+          <NavItem>{t('nav.gite')}</NavItem>
         </Link>
         <Link href="/tariffs">
-          <NavItem>Tarieven</NavItem>
+          <NavItem>{t('nav.tarrifs')}</NavItem>
         </Link>
         <Link href="/contact">
           <NavItem>Contact</NavItem>
         </Link>
         <Select
           onChange={(e) => {
-            i18next.changeLanguage(e.target.value)
+            router.push({ pathname, query }, asPath, { locale: e.target.value })
           }}
+          value={locale}
         >
           {locales?.map((locale) => (
             <option key={locale}>{locale}</option>

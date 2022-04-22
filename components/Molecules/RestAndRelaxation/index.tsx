@@ -4,7 +4,6 @@ import { StyledLink } from '../../Atoms/Button'
 import Link from 'next/link'
 import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
-
 const RestAndRelaxation: React.FC = () => {
   const { t } = useTranslation('common')
 

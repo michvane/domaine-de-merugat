@@ -3,7 +3,7 @@
         "about-us": {
             "about-us": "Qui sommes-nous",
             "welcome": "Helga et Kris sont heureux de vous accueillir dans leur Domaine de Merugat à Valeilles.",
-            "block-right": "Après 27 années passées à la tête d'un commerce important situé dans une grande ville en Belgique, nous aspirons à une vie plus calme. Il y a 4 ans, nous avons séjourné en Tarn-et-Garonne et nous sommes “tombés amoureux” de cette belle région du Sud Ouest, aux portes du Quercy, de la Dordogne et du Lot-et-Garonne. Nous avons été conquis par ces paysages vallonnés, ces vastes champs et tous ces petits villages pittoresques dont nombreux sont labellisés “Plus beaux villages de France”. Mais surtout, nous y avons ressenti un immense bien être dû à la quiétude du lieu oû les seuls bruits sont les champs des oiseaux. Dans cet “écrin de verdure” nous avons trouvé un havre de paix permettant de se resoucer physiquement et psycholigiquement. Nous n'avons pas hésité, nous avons choisi d'y continuer notre vie et de permettre à  d'autres de la découvrir en aménageant gîte et chambre d'hôtes."
+            "block-right": "Après 27 années passées à la tête d'un commerce important situé dans une grande ville en Belgique, nous aspirons à une vie plus calme. Il y a 4 ans, nous avons séjourné en Tarn-et-Garonne et nous sommes “tombés amoureux” de cette belle région du Sud Ouest, aux portes du Quercy, de la Dordogne et du Lot-et-Garonne. Nous avons été conquis par ces paysages vallonnés, ces vastes champs et tous ces petits villages pittoresques dont nombreux sont labellisés “Plus beaux villages de France”. Mais surtout, nous y avons ressenti un immense bien être dû à la quiétude du lieu oû les seuls bruits sont les champs des oiseaux. Dans cet “écrin de verdure” nous avons trouvé un havre de paix permettant de se resoucer physiquement et psycholigiquement. Nous n'avons pas hésité, nous avons choisi d'y continuer notre vie et de permettre à d'autres de la découvrir en aménageant gîte et chambre d'hôte."
         },
         "rest": {
             "title": "REPOS ET RELAXATION",
@@ -83,5 +83,9 @@
     "contact": {
         "title": "Contact",
         "subtitle": "Vous avez des questions ou vous souhaitez effectuer une réservation ? <br /> Contactez-nous!"
+    },
+    "nav": {
+        "tarrifs": "Tarifs",
+        "gite": "Chambre d'hôte"
     }
 }

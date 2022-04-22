@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import colors from '../../../constants/colors'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
-
 const iconStyle = { marginRight: '1rem' }
 
 const Contact: React.FC = () => {

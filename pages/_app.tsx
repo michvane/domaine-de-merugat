@@ -39,10 +39,9 @@ const theme = {
 
 const App = ({ Component, pageProps }: AppProps) => {
   const { locale, defaultLocale } = useRouter()
-  console.log(locale)
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: locale || 'nl',
+    lng: locale || defaultLocale,
     resources: {
       fr: {
         common: common_fr,
@@ -55,12 +54,14 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <I18nextProvider i18n={i18next}>
+    <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
       </ThemeProvider>
+      </>
     </I18nextProvider>
   )
 }
