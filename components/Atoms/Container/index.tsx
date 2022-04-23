@@ -1,3 +1,4 @@
+import { mq } from 'constants/mediaQueries'
 import styled from 'styled-components'
 
 const Container: React.FC = ({ children }) => {
@@ -16,9 +17,13 @@ const ContainerWrapper = styled.div`
 `
 
 const PageWidth = styled.div`
-  padding: 3.2rem;
+  padding: 1.2rem;
   max-width: 1280px;
   min-width: 80vw;
+
+  @media (min-width: ${mq.mobile}) {
+    padding: 3.2rem;
+  }
 `
 
 export default Container

@@ -1,3 +1,4 @@
+import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
@@ -41,8 +42,12 @@ const SmallTitle = styled.p`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 1fr;
   margin-bottom: 4rem;
+
+  @media (min-width: ${mq.tablet}) {
+    grid-template-columns: 60% 40%;
+  }
 `
 
 const BlockRight = styled.div`

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import colors from '../../../constants/colors'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
+import { mq } from 'constants/mediaQueries'
 const iconStyle = { marginRight: '1rem' }
 
 const Contact: React.FC = () => {
@@ -73,13 +74,21 @@ const SmallTitle = styled.p`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 1fr;
   margin-bottom: 4rem;
+
+  @media (min-width: ${mq.tablet}) {
+    grid-template-columns: 40% 60%;
+  }
 `
 
 const BlockRight = styled.div`
-  padding: 3rem;
+  padding: 1.5rem;
   background-color: ${colors.main}15;
+
+  @media (min-width: ${mq.tablet}) {
+    padding: 3rem;
+  }
 `
 
 const BlockLeft = styled.div`

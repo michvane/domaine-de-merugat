@@ -45,7 +45,12 @@ const Navigation: React.FC = () => {
 }
 
 const Select = styled.select`
-  margin-left: 1rem;
+  margin-left: 0;
+  width: min-content;
+
+  @media (min-width: ${mq.mobile}) {
+    margin-left: 1rem;
+  }
 `
 
 const FlexGrowth = styled.div`

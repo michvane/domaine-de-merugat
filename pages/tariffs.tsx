@@ -6,6 +6,7 @@ import SmallTitle from '../components/Atoms/SmallTitle'
 import colors from '../constants/colors'
 import front from '../public/img/tarieven/front.jpg'
 import Image from 'next/image'
+import { mq } from 'constants/mediaQueries'
 
 const Tariffs: NextPage = () => {
   const { t } = useTranslation('common')
@@ -54,9 +55,12 @@ const TextDiv = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 2rem;
-  margin-bottom: 2rem;
+  grid-template-columns: 1fr;
+  margin-bottom: 4rem;
+
+  @media (min-width: ${mq.tablet}) {
+    grid-template-columns: 50% 50%;
+  }
 `
 
 export default Tariffs
