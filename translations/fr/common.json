@@ -17,7 +17,7 @@
             "block-two": "Nous espérons vous acceuillir ici au Domaine de Merugat!"
         },
         "reviews": {
-            "title": "Wat onze gasten vinden",
+            "title": "Commentaires",
             "katinka": "“Chambre d'hôtes de top niveau; accueil excellent. Super petit déjeuner. Maison raffinée. Rien à reprocher. Située en pleine campagne, au grand calme, il vaut mieux avoir un GPS pour trouver cette jolie demeure..”",
             "dominique": "“Cadre magnifique. Belle piscine avec prestations de qualité (parasol, serviettes, chaises longues) dans un espace parfaitement entretenu. Accueil particulièrement sympathique des hôtes. Petit déjeuner de niveau 4 étoiles. Dîner possible et a prix raisonnable.”",
             "michel": "“l'hospitalité et un lieu à la hauteur de ce que nous recherchions.”"
@@ -52,7 +52,7 @@
     "bnb": {
         "welcome": {
             "title": "CHAMBE D'HÔTES",
-            "subtitle": "Nous vous souhaitons la bienvenue dans notre chambres d'hôte De Merugat",
+            "subtitle": "Nous vous souhaitons la bienvenue dans notre chambre d'hôtes De Merugat",
             "text": "Vous logez sous le pigeonnier,dans une grande chambre romantiques aux charpentes authentiques. (35m2) La salle de bain privative à été récemment rénovée et se compose d'une douche, lavabo et wc. La chambre d'hôtes avec entrée privée est entièrement située au rez-de chaussée. Le matin, nous vous gâtons avec un petit déjeuner copieux avec du pain frais, des confitures maison et de délicieux produits régionaux. Vous pouvez profiter du jardin paysager avec piscine de 10 x 5 m."
         },
         "info": {
