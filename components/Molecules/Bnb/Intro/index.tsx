@@ -2,7 +2,6 @@ import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
-import Button from '../../../Atoms/Button'
 
 const GiteIntro: React.FC = () => {
   const { t } = useTranslation('common')
@@ -10,7 +9,7 @@ const GiteIntro: React.FC = () => {
   return (
     <Grid>
       <BlockLeft>
-        <SmallTitle>{t('bnb.info.title')}</SmallTitle>
+        <SmallTitle>{t('bnb.welcome.title')}</SmallTitle>
         <h2>{t('bnb.welcome.subtitle')}</h2>
       </BlockLeft>
       <BlockRight>
