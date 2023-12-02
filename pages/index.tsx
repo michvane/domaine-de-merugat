@@ -8,12 +8,16 @@ import Carousel from '../components/Molecules/Carousel'
 import RestAndRelaxation from '../components/Molecules/RestAndRelaxation'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
 
   return (
     <>
+      <Head>
+        <title>Domaine De Merugat</title>
+      </Head>
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
       <Container>
         <AboutUs />
@@ -29,7 +33,8 @@ const Home: NextPage = () => {
               maxWidth: '1000px',
             }}
           >
-            {t('home.interlude.block-one')}<br />
+            {t('home.interlude.block-one')}
+            <br />
             {t('home.interlude.block-two')}
           </p>
         </Intermediary>

@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
   }
 
   p {
@@ -54,13 +54,13 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <I18nextProvider i18n={i18next}>
-    <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ThemeProvider>
+      <>
+        <GlobalStyle />
+        <ThemeProvider theme={theme}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ThemeProvider>
       </>
     </I18nextProvider>
   )

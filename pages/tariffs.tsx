@@ -7,12 +7,16 @@ import colors from '../constants/colors'
 import front from '../public/img/tarieven/front.jpg'
 import Image from 'next/image'
 import { mq } from 'constants/mediaQueries'
+import Head from 'next/head'
 
 const Tariffs: NextPage = () => {
   const { t } = useTranslation('common')
 
   return (
     <>
+      <Head>
+        <title>{t('tarrifs.title')}</title>
+      </Head>
       <Image src={front} layout="responsive" alt="Picture of the whole area" />
 
       <Container>
@@ -20,28 +24,22 @@ const Tariffs: NextPage = () => {
         <Grid>
           <TextDiv>
             <SmallTitle>{t('tarrifs.price-gite')}</SmallTitle>
-            <div dangerouslySetInnerHTML={
-                {__html: t('tarrifs.block1', {interpolation: {escapeValue: false}})}
-            } />
+            <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block1', { interpolation: { escapeValue: false } }) }} />
           </TextDiv>
           <TextDiv>
             <SmallTitle>{t('tarrifs.price-bnb')}</SmallTitle>
-            <div dangerouslySetInnerHTML={
-                {__html: t('tarrifs.block2', {interpolation: {escapeValue: false}})}
-            } />
+            <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block2', { interpolation: { escapeValue: false } }) }} />
           </TextDiv>
         </Grid>
         <TextDiv>
           <SmallTitle>{t('tarrifs.cancel-title')}</SmallTitle>
           <p>
-          <div dangerouslySetInnerHTML={
-                {__html: t('tarrifs.cancel-text', {interpolation: {escapeValue: false}})}
-            } />
+            <div
+              dangerouslySetInnerHTML={{ __html: t('tarrifs.cancel-text', { interpolation: { escapeValue: false } }) }}
+            />
           </p>
           <SmallTitle>{t('tarrifs.covid-title')}</SmallTitle>
-          <p>
-            {t('tarrifs.covid-text')}
-          </p>
+          <p>{t('tarrifs.covid-text')}</p>
         </TextDiv>
       </Container>
     </>
