@@ -8,7 +8,7 @@ import { mq } from 'constants/mediaQueries'
 
 const Navigation: React.FC = () => {
   const router = useRouter()
-  const { locale, locales, pathname, asPath, query  } = router
+  const { locale, locales, pathname, asPath, query } = router
   const { t } = useTranslation('common')
   return (
     <Container>
@@ -26,9 +26,13 @@ const Navigation: React.FC = () => {
         <Link href="/tariffs">
           <NavItem>{t('nav.tarrifs')}</NavItem>
         </Link>
+        <Link href="/activities">
+          <NavItem>{t('nav.activities')}</NavItem>
+        </Link>
         <Link href="/contact">
           <NavItem>Contact</NavItem>
         </Link>
+
         <Select
           onChange={(e) => {
             router.push({ pathname, query }, asPath, { locale: e.target.value })
