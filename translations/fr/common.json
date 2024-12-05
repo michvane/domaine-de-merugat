@@ -1,144 +1,145 @@
 {
-    "home": {
-        "about-us": {
-            "about-us": "",
-            "welcome": "Helga et Kris sont heureux de vous accueillir dans leur Domaine de Merugat à Valeilles.",
-            "block-right": "Après 27 années passées à la tête d'un commerce important situé dans une grande ville en Belgique, nous aspirons à une vie plus calme. Il y a 4 ans, nous avons séjourné en Tarn-et-Garonne et nous sommes “tombés amoureux” de cette belle région du Sud Ouest, aux portes du Quercy, de la Dordogne et du Lot-et-Garonne. Nous avons été conquis par ces paysages vallonnés, ces vastes champs et tous ces petits villages pittoresques dont nombreux sont labellisés “Plus beaux villages de France”. Mais surtout, nous y avons ressenti un immense bien être dû à la quiétude du lieu oû les seuls bruits sont les champs des oiseaux. Dans cet “écrin de verdure” nous avons trouvé un havre de paix permettant de se resoucer physiquement et psycholigiquement. Nous n'avons pas hésité, nous avons choisi d'y continuer notre vie et de permettre à d'autres de la découvrir en aménageant gîte et chambre d'hôtes."
-        },
-        "rest": {
-            "title": "REPOS ET RELAXATION",
-            "block-one": "Le Domaine de Merugat est situé dans un environnement calme bordé de prairies, idéal pour un véritable séjour détente. Nichée dans les vergers de pruniers, dans un écrin de verdure et de grands chênes,  cette magnifique propriété  vous propose un gîte de 6 personnes, à peine éloigné de la bâtisse des propriétaires, et une chambre d'hôtes absolument charmante. Une décoration choisie, des équipements de qualité et un service très développe font de cet endroit un lieu qui sait acceuillir et dans lequel les invités sont de véritables priviligiés.",
-            "block-two": "Nos petits déjeuners sont des régals de produits locaux frais, croustillants, goûteux. Et vous pouvez, sur demande, vous assoir à la table d'hôtes trois fois par semaine.",
-            "gite": "Voir le gîte",
-            "bnb": "Voir la chambre d'hôtes"
-        },
-        "interlude": {
-            "block-one": "Depuis 2018 nous gérons un gîte pour 6 personnes et une chambre d'hôtes. Ceux qui aiment passer des vacances meiveilleusement relaxantes, sont en bon endroit. Se ressourcer, profiter du soleil et de la piscine, rien n'est nécessaire. Vous n'avez pas envie de vous occuper du petit-déjeuner ou de cuisinier? Faites-nous savoir à temps et nous serons heureux de le faire pour vous. N'hésiter pas à nous contacter.",
-            "block-two": "Nous espérons vous acceuillir ici au Domaine de Merugat!"
-        },
-        "reviews": {
-            "title": "Commentaires",
-            "katinka": "“Chambre d'hôtes de top niveau; accueil excellent. Super petit déjeuner. Maison raffinée. Rien à reprocher. Située en pleine campagne, au grand calme, il vaut mieux avoir un GPS pour trouver cette jolie demeure..”",
-            "dominique": "“Cadre magnifique. Belle piscine avec prestations de qualité (parasol, serviettes, chaises longues) dans un espace parfaitement entretenu. Accueil particulièrement sympathique des hôtes. Petit déjeuner de niveau 4 étoiles. Dîner possible et a prix raisonnable.”",
-            "michel": "“l'hospitalité et un lieu à la hauteur de ce que nous recherchions.”"
-        }
+  "home": {
+    "about-us": {
+      "about-us": "",
+      "welcome": "Helga et Kris sont heureux de vous accueillir dans leur Domaine de Merugat à Valeilles.",
+      "block-right": "Après 27 années passées à la tête d'un commerce important situé dans une grande ville en Belgique, nous aspirons à une vie plus calme. Il y a 4 ans, nous avons séjourné en Tarn-et-Garonne et nous sommes “tombés amoureux” de cette belle région du Sud Ouest, aux portes du Quercy, de la Dordogne et du Lot-et-Garonne. Nous avons été conquis par ces paysages vallonnés, ces vastes champs et tous ces petits villages pittoresques dont nombreux sont labellisés “Plus beaux villages de France”. Mais surtout, nous y avons ressenti un immense bien être dû à la quiétude du lieu oû les seuls bruits sont les champs des oiseaux. Dans cet “écrin de verdure” nous avons trouvé un havre de paix permettant de se resoucer physiquement et psycholigiquement. Nous n'avons pas hésité, nous avons choisi d'y continuer notre vie et de permettre à d'autres de la découvrir en aménageant gîte et chambre d'hôtes."
     },
-    "gite": {
-        "welcome": {
-            "title": "NOTRE GÎTE",
-            "subtitle": "Nous vous souhaitons la bienvenue dans notre Gîte De Merugat",
-            "text": "Nous sommes heureux de vous annoncer que notre gîte à été classé en 2021 avec 3 étoiles. Notre gîte pour 6 personnes se compose de 3 chambres, une cuisine bien équipée, une salle de bain avec douche à l'Italienne, lavabo et wc. Sous la grande terrasse couverte vous avez une vue magnifique sur notre grand jardin avec sa piscine de 10 x 5 m. Pour les amateurs, nous avons installé un boulodrome."
-        },
-        "info": {
-            "title": "INFORMATIONS PRATIQUES",
-            "item1": "Capacité : 3 chambres, 6 personnes",
-            "item2": "1 chambre avec grand lit double de 180cm x 200cm",
-            "item3": "1 chambre avec grand lit double de 160cm x 200cm",
-            "item4": "1 chambre avec 2 lits simples de 90cm x 200cm",
-            "item5": "Salle de bain avec douche à l'Italienne, lavabo et wc",
-            "item6": "Cuisine avec lave vaisselle, frigo avec congélateur, four et four micro-onde",
-            "item7": "Draps de lit, couettes et serviettes de bain compris",
-            "item8": "Lits faits à l'arrivée",
-            "item9": "Grande terrasse couverte avec meubles de jardin et barbecue",
-            "item10": "Piscine de 10 x 5 m avec chaises longues et parasols",
-            "item11": "Wifi gratuit",
-            "item12": "Boulodrome",
-            "item13": "Lave linge et sêche linge collectif (5 Euro)",
-            "item14": "Arrivée: à partir de 16h. Départ: avant 10h",
-            "item15": "Animaux non acceptés",
-            "item16": "Notre gîte est non-fumeur"
-        }
+    "rest": {
+      "title": "REPOS ET RELAXATION",
+      "block-one": "Le Domaine de Merugat est situé dans un environnement calme bordé de prairies, idéal pour un véritable séjour détente. Nichée dans les vergers de pruniers, dans un écrin de verdure et de grands chênes,  cette magnifique propriété  vous propose un gîte de 6 personnes, à peine éloigné de la bâtisse des propriétaires, et une chambre d'hôtes absolument charmante. Une décoration choisie, des équipements de qualité et un service très développe font de cet endroit un lieu qui sait acceuillir et dans lequel les invités sont de véritables priviligiés.",
+      "block-two": "Nos petits déjeuners sont des régals de produits locaux frais, croustillants, goûteux. Et vous pouvez, sur demande, vous assoir à la table d'hôtes trois fois par semaine.",
+      "gite": "Voir le gîte",
+      "bnb": "Voir la chambre d'hôtes"
     },
-    "bnb": {
-        "title": "Chambre d'hôtes - Domaine De Merugat",
-        "welcome": {
-            "title": "CHAMBE D'HÔTES",
-            "subtitle": "Nous vous souhaitons la bienvenue dans notre chambre d'hôtes De Merugat",
-            "text": "Vous logez sous le pigeonnier dans une grande chambre romantique aux charpentes authentiques. (35m2) La salle de bain privative à été récemment rénovée et se compose d'une douche, lavabo et wc. La chambre d'hôtes avec entrée privée est entièrement située au rez-de chaussée. Le matin, nous vous gâtons avec un petit déjeuner copieux avec du pain frais, des confitures maison et de délicieux produits régionaux. Vous pouvez profiter du jardin paysager avec piscine de 10 x 5 m."
-        },
-        "info": {
-            "title": "INFORMATIONS PRATIQUES",
-            "item1": "Grande chambre romantique avec charpentes authentiques avec grand lit double de 180cm x 200cm",
-            "item2": "Salle de bain privé rénovée recemment avec douche, lavabo et wc",
-            "item3": "Acces privé",
-            "item4": "Draps, couettes et serviettes de bain compris",
-            "item5": "Wifi gratuit",
-            "item6": "Copieux petit déjeuner avec pain frais, confitures maison et produits locaux",
-            "item7": "Grand jardin avec piscine de 10 x 5m, chaises longues et parasols",
-            "item8": "Arrivée à partir de 16h. Merci de libérer la chambre au plus tard à 10h",
-            "item9": "Animaux non admis",
-            "item10": "Il est interdit de fumer dans la chambre"
-        }
+    "interlude": {
+      "block-one": "Depuis 2018 nous gérons un gîte pour 6 personnes et une chambre d'hôtes. Ceux qui aiment passer des vacances meiveilleusement relaxantes, sont en bon endroit. Se ressourcer, profiter du soleil et de la piscine, rien n'est nécessaire. Vous n'avez pas envie de vous occuper du petit-déjeuner ou de cuisinier? Faites-nous savoir à temps et nous serons heureux de le faire pour vous. N'hésiter pas à nous contacter.",
+      "block-two": "Nous espérons vous acceuillir ici au Domaine de Merugat!"
     },
-    "tarrifs": {
-        "title": "Tarifs - Domaine De Merugat",
-        "tarrifs": "TARIFS",
-        "price-gite": "PRIX GÎTE 2024",
-        "block1": "<p>Gîte maximum pour 6 personnes</p><strong>Haute saison du 29/06/2024 au 24/08/2024</strong><p>En haute saison seulement avec arrivée et départ le samedi <br />  Semaine : 1200 € <br /> Forfait ménage en fin séjour : 50 €</p><strong>Mi-saison du 01/06/2024 au 29/06/2024 et du 24/08/2024 au 28/09/2024</strong><p>  Week-end : de 300 € à 435 € (2 ou 3 nuits) <br /> Mid-week : 580 € (4 nuits)  <br /> Semaine : 990 €  <br /> Forfait ménage en fin séjour : 50 €</p><strong>Basse saison du 30/03/2024 au 31/05/2024 et du 28/09/2024 au 31/10/2024 </strong><p>  Week-end : de 260 € à 390 € (2 ou 3 nuits) <br /> Mid-week : 550 € (4 nuits)  <br /> Semaine : 850 € <br />  Forfait ménage en fin séjour : 50 €</p><p>  Non compris: Taxe de séjour : 1.44 € p.p/nuit pour les personnes + 18 ans. Le ménage de fin de séjour et la taxe de séjour sont à régler en espèces sur place.</p><p> Petit déjeuner: <br /> De 0 à 5 ans : gratuit <br /> De 5 à 12 ans : 10 € <br /> A partir de 13 ans : 15 €</p><p>Arrivée à partir de 16h. Le gîte doît être libéré le jour du départ au plus tard à 10h. </p><p> Caution: 250 € à régler en espèces à l'arrivée. <br /> Acompte : 50% du loyer total à payer dans les 7 jours suivant la réservation. La réservation est définitive après réception de l'acompte. Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
-        "price-bnb": "PRIX CHAMBRE D'HÔTES 2024",
-        "block2": "<p>Chambre pour 2 personnes</p><strong>Haute saison du 29/06/2024 au 24/08/2024</strong><p>  Prix par nuit : 115 € <br />  Minimum 3 nuits</p><strong>Mi-saison du 01/06/2024 au 29/06/2024 et du 24/08/2024 au 28/09/2024</strong><p>  Prix par nuit : 105 € <br /> Minimum 2 nuits</p><strong>Basse saison du 30/03/2024 au 31/05/2024 et du 28/09/2024 au 31/10/2024</strong><p>Prix par nuit : 90 €</p><p>  Nos prix incluent le petit déjeuner copieux. <br /> Non compris: Taxe de séjour : 0.86 € p.p/nuit pour les +18 ans</p><p>Arrivée : à partir de 16h. La chambre doît être libérée le jour du départ au plus tard à 10h. </p><p>  Acompte : 50% du loyer total à payer dans les 7 jours après réservation. La réservation est définitive après réception de l'acompte.<br /> Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
-        "cancel-title": "CONDITIONS D' ANNULATION",
-        "cancel-text": "En cas d'annulation du contrat les sommes retenues dépendront du moment d'annulation.<br />Jusqu'à 8 semaines avant votre arrivée : 50% du loyer total. <br />Moins de 8 semaines avant votre arrivée : 100% du loyer total.",
-        "covid-title": "GARANTIE ANNULATION CORONA",
-        "covid-text": "Nous utilisons la “Garantie Annulation Corona” grâce à laquelle les avances et soldes déjà versés ne sont pas perdus en cas d'interdiction de voyager en raison du Coronavirus. La date de voyage peut être modifiée sans frais dans la même classe de réservation et selon les disponibilités."
-    },
-    "contact": {
-        "title": "Contact",
-        "subtitle": "Vous avez des questions ou vous souhaitez effectuer une réservation ? <br /> Contactez-nous!"
-    },"activities": {
-        "title": "Activités",
-        "markets": "Marchés :",
-        "market1": "Dimanche : marché hebdomadaire à Pujols et petit marché à Roquecor",
-        "market2": "Mardi : marché nocturne avec restauration, boissons et musique à partir de 18h30",
-        "market3": "Mercredi : marché hebdomadaire à Saint-Sylvestre derrière l'Intermarché",
-        "market4": "Jeudi : grand marché hebdomadaire à Monsempron-Libos",
-        "market5": "Vendredi : marché nocturne à Tournon d'Agenais avec restauration, boissons et musique",
-        "market6": "Samedi : marché hebdomadaire à Montaigue de Quercy",
-        "museum": "Musée du fois gras à Frespech",
-        "truffles": "Truffes et miel - La Ferme du Bosquet à Penne d'Agenais",
-        "beautiful_villages": "Beaux villages :",
-        "village1": "Penne d'Agenais avec basilique Peyragude et de charmants restaurants",
-        "village2": "Tournon d'Agenais, joli village médiéval avec quelques restaurants",
-        "village3": "Pujols, petit village médiéval avec quelques restaurants",
-        "village4": "Fumel",
-        "village5": "Lauzerte",
-        "village6": "Agen pour faire du shopping...",
-        "village7": "Montauban, Toulouse, vieux quartier magnifique",
-        "shops": "Commerces :",
-        "shop1": "Petite épicerie à Dausse en face de l'église. Vend du pain, des gâteaux, des fruits, des légumes, ... basique",
-        "shop2": "Boulangerie Biette à Penne D'agenais à 7 km",
-        "shop3": "Intermarché à 7 km à Saint-Sylvestre",
-        "shop4": "E. Leclerc, Lidl, Aldi et de nombreux magasins à Villeneuve-sur-Lot à 17 km",
-        "shop5": "Gifi, Maison du Monde, Intersport à Villeneuve-sur-Lot",
-        "amusement": "Divertissement :",
-        "amusement1": "Parc en Ciel parcours d'accrobranche à Lacapelle-Biron",
-        "amusement2": "Lazercity à Journiac",
-        "amusement3": "Univerland : 9 attractions (karting en extérieur, prison infernale, VR Galaxy, VR Films, karaoké, Axe & Fun Games, Aquatic Lagoon) à Journiac",
-        "amusement4": "Karting intérieur et extérieur à Caudecoste",
-        "amusement5": "Go Kids Park pour les enfants de moins de 12 ans à Journiac",
-        "amusement6": "Demandez nos dépliants !",
-        "castles": "Châteaux :",
-        "castle1": "Château de Bonaguil",
-        "castle2": "Château de Biron (fermé)",
-        "castle3": "Château de Gavaudun",
-        "castle4": "Bastide de Montflanquin avec de nombreux magasins",
-        "caves": "Grottes :",
-        "cave1": "Grottes de Fontirou en face d'un Parc Animal à Castella à 20 km",
-        "cave2": "La grotte de Lastournelle à Sainte Colombe de Villeneuve",
-        "restaurants": "Restaurants :",
-        "restaurant1": "Le moulin de Dausse à proximité à Dausse Très bon",
-        "restaurant2": "Le Peyragude",
-        "restaurant3": "Le Patio d'Haute Ville",
-        "restaurant4": "Le Bombecul",
-        "restaurant5": "L'Autre Maison",
-        "restaurant6": "Café des Arts",
-        "restaurant7": "Auberge du Brelan à Anthé",
-        "restaurant8": "Le caillau à Vire sur Lot (à 30 minutes en voiture)",
-        "restaurant9": "Restaurant de fruits de mer Blue Marine à Villeneuve-sur-Lot (également plateaux de fruits de mer, homard, ... à commander à l'avance)"
-      },
-    "nav": {
-        "tarrifs": "Tarifs",
-        "gite": "Chambre d'hôtes",
-        "activities": "Activités"
+    "reviews": {
+      "title": "Commentaires",
+      "katinka": "“Chambre d'hôtes de top niveau; accueil excellent. Super petit déjeuner. Maison raffinée. Rien à reprocher. Située en pleine campagne, au grand calme, il vaut mieux avoir un GPS pour trouver cette jolie demeure..”",
+      "dominique": "“Cadre magnifique. Belle piscine avec prestations de qualité (parasol, serviettes, chaises longues) dans un espace parfaitement entretenu. Accueil particulièrement sympathique des hôtes. Petit déjeuner de niveau 4 étoiles. Dîner possible et a prix raisonnable.”",
+      "michel": "“l'hospitalité et un lieu à la hauteur de ce que nous recherchions.”"
     }
+  },
+  "gite": {
+    "welcome": {
+      "title": "NOTRE GÎTE",
+      "subtitle": "Nous vous souhaitons la bienvenue dans notre Gîte De Merugat",
+      "text": "Nous sommes heureux de vous annoncer que notre gîte à été classé en 2021 avec 3 étoiles. Notre gîte pour 6 personnes se compose de 3 chambres, une cuisine bien équipée, une salle de bain avec douche à l'Italienne, lavabo et wc. Sous la grande terrasse couverte vous avez une vue magnifique sur notre grand jardin avec sa piscine de 10 x 5 m. Pour les amateurs, nous avons installé un boulodrome."
+    },
+    "info": {
+      "title": "INFORMATIONS PRATIQUES",
+      "item1": "Capacité : 3 chambres, 6 personnes",
+      "item2": "1 chambre avec grand lit double de 180cm x 200cm",
+      "item3": "1 chambre avec grand lit double de 160cm x 200cm",
+      "item4": "1 chambre avec 2 lits simples de 90cm x 200cm",
+      "item5": "Salle de bain avec douche à l'Italienne, lavabo et wc",
+      "item6": "Cuisine avec lave vaisselle, frigo avec congélateur, four et four micro-onde",
+      "item7": "Draps de lit, couettes et serviettes de bain compris",
+      "item8": "Lits faits à l'arrivée",
+      "item9": "Grande terrasse couverte avec meubles de jardin et barbecue",
+      "item10": "Piscine de 10 x 5 m avec chaises longues et parasols",
+      "item11": "Wifi gratuit",
+      "item12": "Boulodrome",
+      "item13": "Lave linge et sêche linge collectif (5 Euro)",
+      "item14": "Arrivée: à partir de 16h. Départ: avant 10h",
+      "item15": "Animaux non acceptés",
+      "item16": "Notre gîte est non-fumeur"
+    }
+  },
+  "bnb": {
+    "title": "Chambre d'hôtes - Domaine De Merugat",
+    "welcome": {
+      "title": "CHAMBE D'HÔTES",
+      "subtitle": "Nous vous souhaitons la bienvenue dans notre chambre d'hôtes De Merugat",
+      "text": "Vous logez sous le pigeonnier dans une grande chambre romantique aux charpentes authentiques. (35m2) La salle de bain privative à été récemment rénovée et se compose d'une douche, lavabo et wc. La chambre d'hôtes avec entrée privée est entièrement située au rez-de chaussée. Le matin, nous vous gâtons avec un petit déjeuner copieux avec du pain frais, des confitures maison et de délicieux produits régionaux. Vous pouvez profiter du jardin paysager avec piscine de 10 x 5 m."
+    },
+    "info": {
+      "title": "INFORMATIONS PRATIQUES",
+      "item1": "Grande chambre romantique avec charpentes authentiques avec grand lit double de 180cm x 200cm",
+      "item2": "Salle de bain privé rénovée recemment avec douche, lavabo et wc",
+      "item3": "Acces privé",
+      "item4": "Draps, couettes et serviettes de bain compris",
+      "item5": "Wifi gratuit",
+      "item6": "Copieux petit déjeuner avec pain frais, confitures maison et produits locaux",
+      "item7": "Grand jardin avec piscine de 10 x 5m, chaises longues et parasols",
+      "item8": "Arrivée à partir de 16h. Merci de libérer la chambre au plus tard à 10h",
+      "item9": "Animaux non admis",
+      "item10": "Il est interdit de fumer dans la chambre"
+    }
+  },
+  "tarrifs": {
+    "title": "Tarifs - Domaine De Merugat",
+    "tarrifs": "TARIFS",
+    "price-gite": "PRIX GÎTE 2025",
+    "block1": "<p>Gîte maximum pour 6 personnes (+ bébé)</p><strong>Haute saison du 28/06/2025 au 29/08/2025</strong><p>En haute saison seulement avec arrivée et départ le samedi<br />Semaine : 1200 €<br />Forfait ménage en fin séjour : 60 €</p><strong>Mi-saison du 31/05/2025 au 27/06/2025 et du 30/08/2025 au 26/09/2025</strong><p>Week-end : de 340 € à 510 € (2 ou 3 nuits)<br />Mid-week : 600 € (4 nuits)<br />Semaine : 990 €<br />Forfait ménage en fin séjour : 60 €</p><strong>Basse saison du 29/03/2025 au 30/05/2025 et du 27/09/2025 au 08/11/2025</strong><p>Week-end : de 300 € à 450 € (2 ou 3 nuits)<br />Mid-week : 550 € (4 nuits)<br />Semaine : 850 €<br />Forfait ménage en fin séjour : 60 €</p><p>Non compris: Taxe de séjour : 0.88 € p.p/nuit pour les personnes + 18 ans. Le ménage de fin de séjour et la taxe de séjour sont à régler en espèces sur place.</p><p>Petit déjeuner:<br />De 0 à 5 ans : gratuit<br />De 5 à 12 ans : 10 €<br />A partir de 13 ans : 15 €</p><p>Arrivée : à partir de 16h. Le gîte doît être libéré le jour du départ au plus tard à 10h.</p><p>Caution : 250 € à régler en espèces à l'arrivée.<br />Acompte : 50% du loyer total à payer dans les 7 jours suivant la réservation. La réservation est définitive après réception de l'acompte. Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
+    "price-bnb": "PRIX CHAMBRE D'HÔTES 2025",
+    "block2": "<p>Chambre pour 2 personnes (+ bébé)</p><strong>Haute saison du 28/06/2025 au 29/08/2025</strong><p>Prix par nuit : 115 €<br />Minimum 2 nuits</p><strong>Mi-saison du 31/05/2025 au 27/06/2025 et du 30/08/2025 au 26/09/2025</strong><p>Prix par nuit : 105 €<br />Minimum 2 nuits</p><strong>Basse saison du 29/03/2025 au 30/05/2025 et du 27/09/2025 au 08/11/2025</strong><p>Prix par nuit : 90 €</p><p>Nos prix incluent le petit déjeuner copieux.<br />Non compris: Taxe de séjour : 0.88 € p.p/nuit pour les +18 ans</p><p>Arrivée : à partir de 16h. La chambre doît être libérée le jour du départ au plus tard à 10h.</p><p>Acompte : 50% du loyer total à payer dans les 7 jours suivant la réservation. La réservation est définitive après réception de l'acompte.<br />Le solde doît être réglé au plus tard 8 semaines avant l'arrivée.</p><p>Nous n'acceptons pas les cartes de paiement.</p>",
+    "cancel-title": "CONDITIONS D'ANNULATION",
+    "cancel-text": "En cas d'annulation du contrat, les sommes retenues dépendront du moment d'annulation.<br />Jusqu'à 8 semaines avant votre arrivée : 50% du loyer total.<br />Moins de 8 semaines avant votre arrivée : 100% du loyer total.",
+    "covid-title": "GARANTIE ANNULATION CORONA",
+    "covid-text": "Nous utilisons la “Garantie Annulation Corona” grâce à laquelle les avances et soldes déjà versés ne sont pas perdus en cas d'interdiction de voyager en raison du Coronavirus. La date de voyage peut être modifiée sans frais dans la même classe de réservation et selon les disponibilités."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Vous avez des questions ou vous souhaitez effectuer une réservation ? <br /> Contactez-nous!"
+  },
+  "activities": {
+    "title": "Activités",
+    "markets": "Marchés :",
+    "market1": "Dimanche : marché hebdomadaire à Pujols et petit marché à Roquecor",
+    "market2": "Mardi : marché nocturne avec restauration, boissons et musique à partir de 18h30",
+    "market3": "Mercredi : marché hebdomadaire à Saint-Sylvestre derrière l'Intermarché",
+    "market4": "Jeudi : grand marché hebdomadaire à Monsempron-Libos",
+    "market5": "Vendredi : marché nocturne à Tournon d'Agenais avec restauration, boissons et musique",
+    "market6": "Samedi : marché hebdomadaire à Montaigue de Quercy",
+    "museum": "Musée du fois gras à Frespech",
+    "truffles": "Truffes et miel - La Ferme du Bosquet à Penne d'Agenais",
+    "beautiful_villages": "Beaux villages :",
+    "village1": "Penne d'Agenais avec basilique Peyragude et de charmants restaurants",
+    "village2": "Tournon d'Agenais, joli village médiéval avec quelques restaurants",
+    "village3": "Pujols, petit village médiéval avec quelques restaurants",
+    "village4": "Fumel",
+    "village5": "Lauzerte",
+    "village6": "Agen pour faire du shopping...",
+    "village7": "Montauban, Toulouse, vieux quartier magnifique",
+    "shops": "Commerces :",
+    "shop1": "Petite épicerie à Dausse en face de l'église. Vend du pain, des gâteaux, des fruits, des légumes, ... basique",
+    "shop2": "Boulangerie Biette à Penne D'agenais à 7 km",
+    "shop3": "Intermarché à 7 km à Saint-Sylvestre",
+    "shop4": "E. Leclerc, Lidl, Aldi et de nombreux magasins à Villeneuve-sur-Lot à 17 km",
+    "shop5": "Gifi, Maison du Monde, Intersport à Villeneuve-sur-Lot",
+    "amusement": "Divertissement :",
+    "amusement1": "Parc en Ciel parcours d'accrobranche à Lacapelle-Biron",
+    "amusement2": "Lazercity à Journiac",
+    "amusement3": "Univerland : 9 attractions (karting en extérieur, prison infernale, VR Galaxy, VR Films, karaoké, Axe & Fun Games, Aquatic Lagoon) à Journiac",
+    "amusement4": "Karting intérieur et extérieur à Caudecoste",
+    "amusement5": "Go Kids Park pour les enfants de moins de 12 ans à Journiac",
+    "amusement6": "Demandez nos dépliants !",
+    "castles": "Châteaux :",
+    "castle1": "Château de Bonaguil",
+    "castle2": "Château de Biron (fermé)",
+    "castle3": "Château de Gavaudun",
+    "castle4": "Bastide de Montflanquin avec de nombreux magasins",
+    "caves": "Grottes :",
+    "cave1": "Grottes de Fontirou en face d'un Parc Animal à Castella à 20 km",
+    "cave2": "La grotte de Lastournelle à Sainte Colombe de Villeneuve",
+    "restaurants": "Restaurants :",
+    "restaurant1": "Le moulin de Dausse à proximité à Dausse Très bon",
+    "restaurant2": "Le Peyragude",
+    "restaurant3": "Le Patio d'Haute Ville",
+    "restaurant4": "Le Bombecul",
+    "restaurant5": "L'Autre Maison",
+    "restaurant6": "Café des Arts",
+    "restaurant7": "Auberge du Brelan à Anthé",
+    "restaurant8": "Le caillau à Vire sur Lot (à 30 minutes en voiture)",
+    "restaurant9": "Restaurant de fruits de mer Blue Marine à Villeneuve-sur-Lot (également plateaux de fruits de mer, homard, ... à commander à l'avance)"
+  },
+  "nav": {
+    "tarrifs": "Tarifs",
+    "gite": "Chambre d'hôtes",
+    "activities": "Activités"
+  }
 }

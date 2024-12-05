@@ -1,145 +1,145 @@
 {
-    "home": {
-        "about-us": {
-            "about-us": "Over ons",
-            "welcome": "Helga en Kris verwelkomen u graag op hun Domaine de Merugat in Valeilles.",
-            "block-right": "Na 27 jaar een hectisch leven geleid te hebben als zelfstandige, waren we dringend toe aan een rustiger leven. Vier jaar geleden toen we in de Tarn-et-Garonne streek met vakantie waren, gebeurde het, we werden verliefd. Verliefd op deze streek. We waren overweldigd door de mooie natuur, de uitgestrekte velden en de pittoreske kleine dorpjes. Maar wat ons vooral opviel, was de stilte. En te midden van deze overweldigende natuur, vonden we onze droomplek: \"Domaine de Merugat\". We hebben niet geaarzeld, dit was de plaats waar we ons leven verder wilden zetten! En we willen graag deze heerlijke plek met jullie delen!"
-        },
-        "rest": {
-            "title": "Rust en ontspanning",
-            "block-one": "Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Onze Gîte en B&B kamer zijn gelegen in een rustige omgeving tussen weilanden en prachtige natuur. De omgeving straalt rust uit, ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve vakantiegangers is Merugat een echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.",
-            "block-two": "'s Morgens verwennen we jullie met uitgebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt, kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan onze table d'hôtes mits 1 dag op voorhand reserveren.",
-            "gite": "Bekijk de Gîte",
-            "bnb": "Bekijk de B&B"
-        },
-        "interlude": {
-            "block-one": "Sinds 2018 baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie! Heb je nog vragen? Aarzel niet ons te contacteren.",
-            "block-two": "We hopen jullie hier in Domaine de Merugat te mogen verwelkomen!"
-        },
-        "reviews": {
-            "title": "Wat onze gasten vinden",
-            "katinka": "“We hebben een geweldige tijd gehad. Ik Kan het iedereen aanraden! Zeer schoon, heerlijk ontbijt en zeer aardige en gezellige gastheer en gastvrouw.”",
-            "dominique": "“Mooie omgeving. Prachtig zwembad met hoogwaardige diensten (parasol, handdoeken, ligstoelen) in een perfect onderhouden gebied. Bijzonder vriendelijk welkom van de gastheren. Ontbijt van 4 sterren. Diner mogelijk en redelijk geprijsd.”",
-            "michel": "“Uitstekende bed and breakfast. uitstekend welkom. Geweldig ontbijt. Verfijnd huis. Niets om over te klagen. Gelegen op het platteland, zeer rustig, het is beter om een GPS om dit mooie huis te vinden ...”"
-        }
+  "home": {
+    "about-us": {
+      "about-us": "Over ons",
+      "welcome": "Helga en Kris verwelkomen u graag op hun Domaine de Merugat in Valeilles.",
+      "block-right": "Na 27 jaar een hectisch leven geleid te hebben als zelfstandige, waren we dringend toe aan een rustiger leven. Vier jaar geleden toen we in de Tarn-et-Garonne streek met vakantie waren, gebeurde het, we werden verliefd. Verliefd op deze streek. We waren overweldigd door de mooie natuur, de uitgestrekte velden en de pittoreske kleine dorpjes. Maar wat ons vooral opviel, was de stilte. En te midden van deze overweldigende natuur, vonden we onze droomplek: \"Domaine de Merugat\". We hebben niet geaarzeld, dit was de plaats waar we ons leven verder wilden zetten! En we willen graag deze heerlijke plek met jullie delen!"
     },
-    "gite": {
-        "welcome": {
-            "title": "ONZE GITE",
-            "subtitle": "Wij verwelkomen u graag in onze Gîte De Merugat",
-            "text": "We zijn verheugd jullie te melden dat onze gîte in januari 2021 geklasseerd werd met 3 sterren! U verblijft in een losstaande gîte met 3 slaapkamers. De gîte met overdekt terras kijkt uit op de aangelegde tuin en zwembad en is voorzien van alle comfort voor een fantastisch verblijf. Wie houdt van een heerlijk ontspannen vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie!"
-        },
-        "info": {
-            "title": "Praktische info",
-            "item1": "De gîte is voorzien voor maximum 6 personen.",
-            "item2": "1 slaapkamer met boxspring bed van 180cm x 200cm",
-            "item3": "1 slaapkamer met boxspring bed van 160cm x 200cm",
-            "item4": "1 slaapkamer met 2 éénpersoonsbedden van 90cm x 200cm",
-            "item5": "Badkamer met inloopdouche, lavabo en toilet",
-            "item6": "Keuken met grote koelkast en diepvries gedeelte. Elektrisch fornuis met oven, afwasmachine, microgolf oven en Senseo apparaat",
-            "item7": "Lakens, badhanddoeken en keukenhanddoeken in de prijs inbegrepen",
-            "item8": "Opgemaakte bedden bij aankomst",
-            "item9": "Groot overdekt terras met tuinmeubelen en gas-barbeque",
-            "item10": "Zwembad van 10m x 5m",
-            "item11": "Gratis WiFi",
-            "item12": "Petanquebaan",
-            "item13": "Wasmachine en droogkast ter beschikking tegen kleine meerprijs",
-            "item14": "Aankomst vanaf 16u. Gîte verlaten op de dag van vertrek voor 10u",
-            "item15": "Huisdieren niet toegelaten.",
-            "item16": "Roken in de gîte is niet toegestaan"
-        }
+    "rest": {
+      "title": "Rust en ontspanning",
+      "block-one": "Kris en Helga zorgen voor een gemoedelijke sfeer en persoonlijke aandacht voor elke gast. Onze Gîte en B&B kamer zijn gelegen in een rustige omgeving tussen weilanden en prachtige natuur. De omgeving straalt rust uit, ideaal voor een zorgeloze en ontspannen vakantie. Maar ook voor de sportieve vakantiegangers is Merugat een echt paradijs. Met de talrijke wandel- en fietsroutes in de buurt kan u uw hartje ophalen.",
+      "block-two": "'s Morgens verwennen we jullie met uitgebreid ontbijt, zelfgebakken brood en huisgemaakte confituren, yoghurt, kaas en charcuterie, eitjes, fruitsalade en meer heerlijke dingen. Drie maal per week kan je aanschuiven aan onze table d'hôtes mits 1 dag op voorhand reserveren.",
+      "gite": "Bekijk de Gîte",
+      "bnb": "Bekijk de B&B"
     },
-    "bnb": {
-        "title": "B&B - Domaine De Merugat",
-        "welcome": {
-            "title": "ONZE BNB",
-            "subtitle": "Wij verwelkomen u graag in onze B&B De Merugat",
-            "text": "U logeert in een grote romantische kamer van 35m2 met mooie authentieke gebinten. De aangrenzende privé-badkamer werd recent volledig vernieuwd. De kamer heeft een aparte ingang in het hoofdgebouw. Uitgebreid verwenontbijt met lokale producten en huisbereide confituur. Je kan gebruik maken van de aangelegde tuin met zwembad."
-        },
-        "info": {
-            "title": "Praktische info",
-            "item1": "Grote romantische kamer met mooie oude balken van 35m² met boxspring van 180cm x 200cm.",
-            "item2": "Aangrenzend een volledig vernieuwde privé badkamer met douche, lavabo en toilet.",
-            "item3": "De kamer heeft een aparte ingang in het hoofdgebouw.",
-            "item4": "Lakens, badhanddoeken en badjassen zijn in de prijs ingegrepen.",
-            "item5": "Uitgebreid ontbijt met vers gebakken brood, huisgemaakte confituren en locale streekproducten.",
-            "item6": "Grote aangelegde tuin met zwembad van 10x5m, ligtstoelen en parasols.",
-            "item7": "Gratis WiFi.",
-            "item8": "Aankomst vanaf 16u. Gelieve de kamer te verlaten voor 10u.",
-            "item9": "Huisdieren niet toegelaten.",
-            "item10": "Roken in de gîte is niet toegestaan"
-        }
+    "interlude": {
+      "block-one": "Sinds 2018 baten we een gîte voor 6 personen en een B&B kamer uit. Wie houdt van een heerlijk ontspannen vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie! Heb je nog vragen? Aarzel niet ons te contacteren.",
+      "block-two": "We hopen jullie hier in Domaine de Merugat te mogen verwelkomen!"
     },
-    "tarrifs": {
-        "title": "Tarieven - Domaine De Merugat",
-        "tarrifs": "Tarieven",
-        "price-gite": "Prijs Gîte 2024",
-        "block1": "<p>Gîte voor max 6 personen</p><strong>Hoogseizoen van 29/06/2024 tot 24/08/2024</strong><p>  Enkel te boeken met aankomst en vertrek op zaterdag <br />  Week : 1200 € <br /> Eindschoonmaak : 50 €</p><strong>Tussenseizoen van 01/06/2024 tot 29/06/2024 en van 24/08/2024 tot 28/09/2024 </strong><p>  Week-end : 300 € tot 435 € (2 of 3 nachten)  <br /> Mid-week : 580 € (4 nachten)  <br /> Week : 990 €  <br /> Eindschoonmaak : 50 €</p><strong>Laag seizoen van 30/03/2024 tot 31/05/2024 en van 28/09/2024 tot 31/10/2024 </strong><p>  Week-end : 260 € tot 390 € (2 of 3 nachten)  <br /> Mid-week : 550 € (4 nachten)  <br /> Week : 850 € <br />  Eindschoonmaak : 50 €</p><p>  Onze prijzen zijn exclusief toeristentaks : 1.44€ p.p/nacht voor + 18 jaar. De eindschoonmaak en  toeristentaks worden ter plaatse cash afgerekend.</p><p>  Ontbijt tot 5 jaar gratis. <br /> Van 5-12 jaar: 10 euro. <br /> Vanaf 13 jaar: 15 euro.</p><p>Aankomst vanaf 16 uur, bij vertrek dient de gîte vrij te zijn om 10 uur. </p><p>  Waarborg: 250 € cash te betalen bij aankomst. <br /> Voorschot: 50% van de totale huurprijs te betalen  binnen de 7 dagen na reservering. Boeking is definitief na ontvangst van het voorschot. Het saldo dient  betaald te worden uiterlijk 8 weken voor aankomst.</p><p>Wij aanvaarden geen betaalkaarten.</p>",
-        "price-bnb": "PRIJS B&B KAMER 2024",
-        "block2": "<p>Kamer voor 2 personen</p><strong>Hoog seizoen van 29/06/2024 tot 24/08/2024</strong><p>  Prijs per nacht : 115 € <br />  Minimum 3 nachten</p><strong>Tussenseizoen 01/06/2024 tot 29/06/2024 en van 24/08/2024 tot 28/09/2024</strong><p>  Prijs per nacht : 105 € <br /> Minimum 2 nachten</p><strong>Laag seizoen van 30/03/2024 tot 31/05/2024 en van 28/09/2024 tot 31/10/2024</strong><p>Prijs per nacht : 90 € </p><p>  Prijzen zijn inclusief uitgebreid ontbijt. <br /> Toeristentaks niet inbegrepen. (0.86€ p.p/nacht + 18  jaar)</p><p>Aankomst vanaf 16u, bij vertrek dient de kamer vrij te zijn om 10 uur. </p><p>  Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief  na ontvangst van het voorschot.<br /> Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.</p><p>Wij aanvaarden geen betaalkaarten.</p>",
-        "cancel-title": "Annulatie voorwaarden",
-        "cancel-text": "Bij annulering van de overeenkomst is de huurder de annuleringskosten verschuldigd die afhankelijk zijn van het moment van annulering. <br />Tot 8 weken voor de aankomstdag : 50% van de totale huursom. <br />Minder dan 8 weken voor de aankomstdag : 100% van de totale huursom.",
-        "covid-title": "Corona maatregelingen",
-        "covid-text": "Wij hanteren de “Corona Annulatie Garantie” waarbij de reeds betaalde voorschotten en saldo bedragen niet verloren gaan in geval van een reisverbod ten gevolge van het coronavirus. De reisdatum kan kosteloos worden gewijzigd binnen dezelfde boekingsklasse en volgens beschikbaarheid."
-    },
-    "contact": {
-        "title": "Contact",
-        "subtitle": "Heeft u vragen of wilt u een boeking doen? <br /> Neem contact met ons op!"
-    },
-    "activities": {
-        "title": "Activiteiten",
-        "markets": "Markten:",
-        "market1": "Zondag: wekelijkse markt in Pujols en kleine markt in Roquecor",
-        "market2": "Dinsdag: avondmarkt met eten en drinken en muziek vanaf 18u30",
-        "market3": "Woensdag: wekelijkse markt in Saint-Sylvestre achter de Intermarché",
-        "market4": "Donderdag: grote wekelijkse markt in Monsempron-Libos",
-        "market5": "Vrijdag: avondmarkt in Tournon d'Agenais met eten en drinken en muziek",
-        "market6": "Zaterdag: wekelijkse markt in Montaigue de Quercy",
-        "museum": "Musée du fois gras in Frespech",
-        "truffles": "Truffels en honing - La Ferme du Bosquet in Penne d'Agenais",
-        "beautiful_villages": "Mooie dorpjes:",
-        "village1": "Penne d'Agenais met basiliek Peyragude en leuke restaurants",
-        "village2": "Tournon d'Agenais, mooi Middeleeuws dorpje met enkele restaurants",
-        "village3": "Pujols klein Middeleeuws dorp met enkele restaurants",
-        "village4": "Fumel",
-        "village5": "Lauzerte",
-        "village6": "Agen om te gaan shoppen.....",
-        "village7": "Montauban, Toulouse mooi oud stadsgedeelte",
-        "shops": "Winkels:",
-        "shop1": "Kleine kruidenierszaak in Dausse rechttegenover de kerk. Verkoopt brood, koeken, fruit, groenten,...... basic",
-        "shop2": "Bakker Biette in Penne D'agenais op 7 km",
-        "shop3": "Intermarché op 7 km in Saint-Sylvestre",
-        "shop4": "E. Leclerc, Lidl, Aldi en vele winkels in Villeneuve-sur-Lot op 17km",
-        "shop5": "Gifi, Maison du Monde, Intersport in Villeneuve-sur-Lot",
-        "amusement": "Amuzement:",
-        "amusement1": "Parc en Ciel klimpark in Lacapelle-Biron",
-        "amusement2": "Lazercity in Journiac",
-        "amusement3": "Univerland: 9 attracties (karting outdoor, prison infernale, VR Galaxy, VR Films, Karaoke, Axe & Fun Games, Aquatic Lagoon) in Journiac",
-        "amusement4": "Indoor en outdoor karting in Caudecoste",
-        "amusement5": "Go Kids Park voor – 12 jarigen in Journiac",
-        "amusement6": "Vraag naar onze folders!",
-        "castles": "Kastelen:",
-        "castle1": "Chateau Bonaguil",
-        "castle2": "Chateau de Biron (ver)",
-        "castle3": "Chateau Gavaudun",
-        "castle4": "Bastide Montflanquin met vele winkels",
-        "caves": "Grotten:",
-        "cave1": "Grottes Fontirou met tegenover een Parc Animal in Castella op 20km",
-        "cave2": "La grotte de Lastournelle in Sainte Colombe de Villeneuve",
-        "restaurants": "Restaurants:",
-        "restaurant1": "Le moulin de Dausse vlakbij in Dausse Zeeeeer lekker",
-        "restaurant2": "Le Peyragude",
-        "restaurant3": "Le Patio d'Haute Ville",
-        "restaurant4": "Le Bombecul",
-        "restaurant5": "L'Autre Maison",
-        "restaurant6": "Café des Arts",
-        "restaurant7": "Auberge du Brelan in Anthé",
-        "restaurant8": "Le caillau in Vire sur Lot (30min rijden)",
-        "restaurant9": "Visrestaurant Blue Marine in Villeneuve-sur-Lot (ook zeevruchtenschotels, kreeft,.... op voorhand te bestellen)"
-    },
-    "nav": {
-        "tarrifs": "Tarieven",
-        "gite": "B&B",
-        "activities": "Activiteiten"
+    "reviews": {
+      "title": "Wat onze gasten vinden",
+      "katinka": "“We hebben een geweldige tijd gehad. Ik Kan het iedereen aanraden! Zeer schoon, heerlijk ontbijt en zeer aardige en gezellige gastheer en gastvrouw.”",
+      "dominique": "“Mooie omgeving. Prachtig zwembad met hoogwaardige diensten (parasol, handdoeken, ligstoelen) in een perfect onderhouden gebied. Bijzonder vriendelijk welkom van de gastheren. Ontbijt van 4 sterren. Diner mogelijk en redelijk geprijsd.”",
+      "michel": "“Uitstekende bed and breakfast. uitstekend welkom. Geweldig ontbijt. Verfijnd huis. Niets om over te klagen. Gelegen op het platteland, zeer rustig, het is beter om een GPS om dit mooie huis te vinden ...”"
     }
+  },
+  "gite": {
+    "welcome": {
+      "title": "ONZE GITE",
+      "subtitle": "Wij verwelkomen u graag in onze Gîte De Merugat",
+      "text": "We zijn verheugd jullie te melden dat onze gîte in januari 2021 geklasseerd werd met 3 sterren! U verblijft in een losstaande gîte met 3 slaapkamers. De gîte met overdekt terras kijkt uit op de aangelegde tuin en zwembad en is voorzien van alle comfort voor een fantastisch verblijf. Wie houdt van een heerlijk ontspannen vakantie, is bij ons aan het juiste adres. Even herbronnen, genieten van zon en zwembad, niets hoeft! Geen zin om voor ontbijt te zorgen of om te koken? Laat het tijdig weten, dan doen wij dat graag voor jullie!"
+    },
+    "info": {
+      "title": "Praktische info",
+      "item1": "De gîte is voorzien voor maximum 6 personen.",
+      "item2": "1 slaapkamer met boxspring bed van 180cm x 200cm",
+      "item3": "1 slaapkamer met boxspring bed van 160cm x 200cm",
+      "item4": "1 slaapkamer met 2 éénpersoonsbedden van 90cm x 200cm",
+      "item5": "Badkamer met inloopdouche, lavabo en toilet",
+      "item6": "Keuken met grote koelkast en diepvries gedeelte. Elektrisch fornuis met oven, afwasmachine, microgolf oven en Senseo apparaat",
+      "item7": "Lakens, badhanddoeken en keukenhanddoeken in de prijs inbegrepen",
+      "item8": "Opgemaakte bedden bij aankomst",
+      "item9": "Groot overdekt terras met tuinmeubelen en gas-barbeque",
+      "item10": "Zwembad van 10m x 5m",
+      "item11": "Gratis WiFi",
+      "item12": "Petanquebaan",
+      "item13": "Wasmachine en droogkast ter beschikking tegen kleine meerprijs",
+      "item14": "Aankomst vanaf 16u. Gîte verlaten op de dag van vertrek voor 10u",
+      "item15": "Huisdieren niet toegelaten.",
+      "item16": "Roken in de gîte is niet toegestaan"
+    }
+  },
+  "bnb": {
+    "title": "B&B - Domaine De Merugat",
+    "welcome": {
+      "title": "ONZE BNB",
+      "subtitle": "Wij verwelkomen u graag in onze B&B De Merugat",
+      "text": "U logeert in een grote romantische kamer van 35m2 met mooie authentieke gebinten. De aangrenzende privé-badkamer werd recent volledig vernieuwd. De kamer heeft een aparte ingang in het hoofdgebouw. Uitgebreid verwenontbijt met lokale producten en huisbereide confituur. Je kan gebruik maken van de aangelegde tuin met zwembad."
+    },
+    "info": {
+      "title": "Praktische info",
+      "item1": "Grote romantische kamer met mooie oude balken van 35m² met boxspring van 180cm x 200cm.",
+      "item2": "Aangrenzend een volledig vernieuwde privé badkamer met douche, lavabo en toilet.",
+      "item3": "De kamer heeft een aparte ingang in het hoofdgebouw.",
+      "item4": "Lakens, badhanddoeken en badjassen zijn in de prijs ingegrepen.",
+      "item5": "Uitgebreid ontbijt met vers gebakken brood, huisgemaakte confituren en locale streekproducten.",
+      "item6": "Grote aangelegde tuin met zwembad van 10x5m, ligtstoelen en parasols.",
+      "item7": "Gratis WiFi.",
+      "item8": "Aankomst vanaf 16u. Gelieve de kamer te verlaten voor 10u.",
+      "item9": "Huisdieren niet toegelaten.",
+      "item10": "Roken in de gîte is niet toegestaan"
+    }
+  },
+  "tarrifs": {
+    "title": "Tarieven - Domaine De Merugat",
+    "tarrifs": "TARIEVEN",
+    "price-gite": "PRIJZEN GÎTE 2025",
+    "block1": "<p>Gîte voor max 6 personen (+ baby)</p><strong>Hoogseizoen van 28/06/2025 tot 29/08/2025</strong><p>Enkel te boeken met aankomst en vertrek op zaterdag<br />Week : 1200€<br />Eindschoonmaak : 60€</p><strong>Tussenseizoen van 31/05/2025 tot 27/06/2025 en van 30/08/2025 tot 26/09/2025</strong><p>Week-end : 340€ tot 510€ (2 of 3 nachten)<br />Mid-week : 600€ (4 nachten)<br />Week : 990€<br />Eindschoonmaak : 60€</p><strong>Laag seizoen van 29/03/2025 tot 30/05/2025 en van 27/09/2025 tot 08/11/2025</strong><p>Week-end : 300€ tot 450€ (2 of 3 nachten)<br />Mid-week : 550€ (4 nachten)<br />Week : 850€<br />Eindschoonmaak : 60€</p><p>Onze prijzen zijn exclusief toeristentaks: 1.44 € p.p/nacht voor +18 jaar. De eindschoonmaak en toeristentaks worden ter plaatse cash afgerekend.</p><p>Ontbijt:<br />Tot 5 jaar gratis<br />Van 5-12 jaar: 10 €<br />Vanaf 13 jaar: 15 €</p><p>Aankomst vanaf 16 uur, bij vertrek dient de gîte vrij te zijn om 10 uur.</p><p>Waarborg: 250 € cash te betalen bij aankomst.<br />Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief na ontvangst van het voorschot. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.</p><p>Wij aanvaarden geen betaalkaarten.</p>",
+    "price-bnb": "PRIJZEN B&B 2025",
+    "block2": "<p>Kamer voor 2 personen (+ baby)</p><strong>Hoog seizoen van 28/06/2025 tot 29/08/2025</strong><p>Prijs per nacht : 115€<br />Minimum 2 nachten</p><strong>Tussenseizoen van 31/05/2025 tot 27/06/2025 en van 30/08/2025 tot 26/09/2025</strong><p>Prijs per nacht : 105€<br />Minimum 2 nachten</p><strong>Laag seizoen van 29/03/2025 tot 30/05/2025 en van 27/09/2025 tot 08/11/2025</strong><p>Prijs per nacht : 90€</p><p>Prijzen zijn inclusief uitgebreid ontbijt.<br />Toeristentaks niet inbegrepen (0.88€ p.p./nacht voor + 18 jaar)</p><p>Aankomst vanaf 16 uur, bij vertrek dient de kamer vrij te zijn om 10 uur.</p><p>Voorschot: 50% van de totale huurprijs te betalen binnen de 7 dagen na reservering. Boeking is definitief na ontvangst van het voorschot. Het saldo dient betaald te worden uiterlijk 8 weken voor aankomst.</p><p>Wij aanvaarden geen betaalkaarten.</p>",
+    "cancel-title": "ANNULERINGSVOORWAARDEN",
+    "cancel-text": "Bij annulering van de overeenkomst zijn de volgende kosten van toepassing:<br />Tot 8 weken voor aankomst: 50% van de totale huurprijs.<br />Minder dan 8 weken voor aankomst: 100% van de totale huurprijs.",
+    "covid-title": "CORONA-ANNULERINGSGARANTIE",
+    "covid-text": "Wij hanteren de “Corona-Annuleringsgarantie”, waardoor reeds betaalde voorschotten en saldi niet verloren gaan bij reisverbod door het Coronavirus. De reisdatum kan kosteloos worden aangepast binnen dezelfde boekingsklasse en afhankelijk van beschikbaarheid."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Heeft u vragen of wilt u een boeking doen? <br /> Neem contact met ons op!"
+  },
+  "activities": {
+    "title": "Activiteiten",
+    "markets": "Markten:",
+    "market1": "Zondag: wekelijkse markt in Pujols en kleine markt in Roquecor",
+    "market2": "Dinsdag: avondmarkt met eten en drinken en muziek vanaf 18u30",
+    "market3": "Woensdag: wekelijkse markt in Saint-Sylvestre achter de Intermarché",
+    "market4": "Donderdag: grote wekelijkse markt in Monsempron-Libos",
+    "market5": "Vrijdag: avondmarkt in Tournon d'Agenais met eten en drinken en muziek",
+    "market6": "Zaterdag: wekelijkse markt in Montaigue de Quercy",
+    "museum": "Musée du fois gras in Frespech",
+    "truffles": "Truffels en honing - La Ferme du Bosquet in Penne d'Agenais",
+    "beautiful_villages": "Mooie dorpjes:",
+    "village1": "Penne d'Agenais met basiliek Peyragude en leuke restaurants",
+    "village2": "Tournon d'Agenais, mooi Middeleeuws dorpje met enkele restaurants",
+    "village3": "Pujols klein Middeleeuws dorp met enkele restaurants",
+    "village4": "Fumel",
+    "village5": "Lauzerte",
+    "village6": "Agen om te gaan shoppen.....",
+    "village7": "Montauban, Toulouse mooi oud stadsgedeelte",
+    "shops": "Winkels:",
+    "shop1": "Kleine kruidenierszaak in Dausse rechttegenover de kerk. Verkoopt brood, koeken, fruit, groenten,...... basic",
+    "shop2": "Bakker Biette in Penne D'agenais op 7 km",
+    "shop3": "Intermarché op 7 km in Saint-Sylvestre",
+    "shop4": "E. Leclerc, Lidl, Aldi en vele winkels in Villeneuve-sur-Lot op 17km",
+    "shop5": "Gifi, Maison du Monde, Intersport in Villeneuve-sur-Lot",
+    "amusement": "Amuzement:",
+    "amusement1": "Parc en Ciel klimpark in Lacapelle-Biron",
+    "amusement2": "Lazercity in Journiac",
+    "amusement3": "Univerland: 9 attracties (karting outdoor, prison infernale, VR Galaxy, VR Films, Karaoke, Axe & Fun Games, Aquatic Lagoon) in Journiac",
+    "amusement4": "Indoor en outdoor karting in Caudecoste",
+    "amusement5": "Go Kids Park voor – 12 jarigen in Journiac",
+    "amusement6": "Vraag naar onze folders!",
+    "castles": "Kastelen:",
+    "castle1": "Chateau Bonaguil",
+    "castle2": "Chateau de Biron (ver)",
+    "castle3": "Chateau Gavaudun",
+    "castle4": "Bastide Montflanquin met vele winkels",
+    "caves": "Grotten:",
+    "cave1": "Grottes Fontirou met tegenover een Parc Animal in Castella op 20km",
+    "cave2": "La grotte de Lastournelle in Sainte Colombe de Villeneuve",
+    "restaurants": "Restaurants:",
+    "restaurant1": "Le moulin de Dausse vlakbij in Dausse Zeeeeer lekker",
+    "restaurant2": "Le Peyragude",
+    "restaurant3": "Le Patio d'Haute Ville",
+    "restaurant4": "Le Bombecul",
+    "restaurant5": "L'Autre Maison",
+    "restaurant6": "Café des Arts",
+    "restaurant7": "Auberge du Brelan in Anthé",
+    "restaurant8": "Le caillau in Vire sur Lot (30min rijden)",
+    "restaurant9": "Visrestaurant Blue Marine in Villeneuve-sur-Lot (ook zeevruchtenschotels, kreeft,.... op voorhand te bestellen)"
+  },
+  "nav": {
+    "tarrifs": "Tarieven",
+    "gite": "B&B",
+    "activities": "Activiteiten"
+  }
 }
