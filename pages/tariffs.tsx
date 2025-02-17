@@ -38,8 +38,6 @@ const Tariffs: NextPage = () => {
               dangerouslySetInnerHTML={{ __html: t('tarrifs.cancel-text', { interpolation: { escapeValue: false } }) }}
             />
           </p>
-          <SmallTitle>{t('tarrifs.covid-title')}</SmallTitle>
-          <p>{t('tarrifs.covid-text')}</p>
         </TextDiv>
       </Container>
     </>
