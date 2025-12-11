@@ -15,7 +15,7 @@ const Gite: NextPage = () => {
         <title>Gîte - Domaine De Merugat</title>
       </Head>
       <ImgWrapper>
-        <Image src={front} layout="responsive" alt="Picture of the whole area" />
+        <Image src={front} fill style={{ objectFit: 'cover' }} alt="Picture of the whole area" />
       </ImgWrapper>
       <Container>
         <GiteIntro />
@@ -26,6 +26,11 @@ const Gite: NextPage = () => {
   )
 }
 
-const ImgWrapper = styled.div``
+const ImgWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 400px;
+`
 
 export default Gite

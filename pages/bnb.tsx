@@ -30,7 +30,10 @@ const Bnb: NextPage = () => {
 }
 
 const ImgWrapper = styled.div`
-  /* max-height: 580px; */
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 400px;
 `
 
 export default Bnb

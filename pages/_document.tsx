@@ -3,7 +3,7 @@ import React from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
-  //@ts-ignore
+  //@ts-expect-error - Next.js Document type
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          //@ts-ignore
+          //@ts-expect-error - styled-components enhanceApp
           enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
         })
 

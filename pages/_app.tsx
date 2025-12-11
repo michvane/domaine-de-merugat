@@ -5,7 +5,6 @@ import { ThemeProvider, createGlobalStyle } from 'styled-components'
 import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next'
 
-import * as common_en from '../translations/en/common.json'
 import * as common_nl from '../translations/nl/common.json'
 import * as common_fr from '../translations/fr/common.json'
 

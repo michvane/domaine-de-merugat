@@ -17,7 +17,9 @@ const Tariffs: NextPage = () => {
       <Head>
         <title>{t('tarrifs.title')}</title>
       </Head>
-      <Image src={front} layout="responsive" alt="Picture of the whole area" />
+      <ImageContainer>
+        <Image src={front} fill style={{ objectFit: 'cover' }} alt="Picture of the whole area" />
+      </ImageContainer>
 
       <Container>
         <h1>{t('tarrifs.tarrifs')}</h1>
@@ -43,6 +45,13 @@ const Tariffs: NextPage = () => {
     </>
   )
 }
+
+const ImageContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 400px;
+`
 
 const TextDiv = styled.div`
   background-color: ${colors.main}15;

@@ -1,4 +1,4 @@
-import React, { PureComponent, SelectHTMLAttributes } from 'react'
+import React from 'react'
 
 interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
 

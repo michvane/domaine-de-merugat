@@ -1,10 +1,8 @@
 import { mq } from 'constants/mediaQueries'
-import Link from 'next/link'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
-import { StyledLink } from '../../Atoms/Button'
 
 const AboutUs: React.FC = () => {
   const { t } = useTranslation('common')

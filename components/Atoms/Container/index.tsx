@@ -1,7 +1,7 @@
 import { mq } from 'constants/mediaQueries'
 import styled from 'styled-components'
 
-const Container: React.FC = ({ children }) => {
+const Container: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   return (
     <ContainerWrapper>
       <PageWidth>{children}</PageWidth>

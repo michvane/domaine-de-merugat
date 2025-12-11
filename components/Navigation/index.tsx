@@ -13,25 +13,25 @@ const Navigation: React.FC = () => {
   return (
     <Container>
       <Nav>
-        <Link href="/">
+        <StyledLink href="/">
           <Logo>Domaine De Merugat</Logo>
-        </Link>
+        </StyledLink>
         <FlexGrowth />
-        <Link href="/gite">
+        <StyledLink href="/gite">
           <NavItem>Gîte</NavItem>
-        </Link>
-        <Link href="/bnb">
+        </StyledLink>
+        <StyledLink href="/bnb">
           <NavItem>{t('nav.gite')}</NavItem>
-        </Link>
-        <Link href="/tariffs">
+        </StyledLink>
+        <StyledLink href="/tariffs">
           <NavItem>{t('nav.tarrifs')}</NavItem>
-        </Link>
-        <Link href="/activities">
+        </StyledLink>
+        <StyledLink href="/activities">
           <NavItem>{t('nav.activities')}</NavItem>
-        </Link>
-        <Link href="/contact">
+        </StyledLink>
+        <StyledLink href="/contact">
           <NavItem>Contact</NavItem>
-        </Link>
+        </StyledLink>
 
         <Select
           onChange={(e) => {
@@ -86,6 +86,11 @@ const NavItem = styled.div`
 
 const Logo = styled.div`
   cursor: pointer;
+`
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
 `
 
 export default Navigation

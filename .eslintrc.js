@@ -3,10 +3,8 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    'jest/globals': true,
-    'cypress/globals': true,
   },
-  extends: ['plugin:react/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:cypress/recommended'],
+  extends: ['plugin:react/recommended', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -15,8 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'jest', 'cypress'],
-  // plugins: ['react', '@typescript-eslint', 'jest', 'cypress', 'react-hooks' ],
+  plugins: ['react', '@typescript-eslint'],
   settings: {
     react: {
       version: 'detect',
@@ -26,10 +23,13 @@ module.exports = {
     },
   },
   rules: {
-    // 'react-hooks/rules-of-hooks': 'error',
-    // 'react-hooks/exhaustive-deps': 'warn',
     'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
     'max-lines': ['error', 150],
     'no-implicit-coercion': ['error', { boolean: true, string: true }],
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/ban-types': 'warn',
+    '@typescript-eslint/ban-ts-comment': 'warn',
   },
 }

@@ -18,7 +18,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Domaine De Merugat</title>
       </Head>
-      <Image src={front} layout="responsive" alt="Picture of the whole area" />
+      <ImageContainer>
+        <Image src={front} fill style={{ objectFit: 'cover' }} alt="Picture of the whole area" />
+      </ImageContainer>
       <Container>
         <AboutUs />
         <Carousel />
@@ -43,6 +45,13 @@ const Home: NextPage = () => {
     </>
   )
 }
+
+const ImageContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 400px;
+`
 
 const Intermediary = styled.div`
   display: flex;

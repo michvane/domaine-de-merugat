@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
   )
 }
 
-const Map: React.FC<{}> = () => {
+const Map: React.FC = () => {
   return (
     <div style={{ width: '100%' }}>
       <iframe
