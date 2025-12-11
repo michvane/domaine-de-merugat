@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Footer: React.FC = () => {
-  return <Wrapper>Lieu dit Merugat - 82150 Valeilles - kris.helga@outlook.fr - © {new Date().getFullYear()} </Wrapper>
+  return <Wrapper>503 ROUTE DU MERUGAT - 82150 Valeilles - kris.helga@outlook.fr - © {new Date().getFullYear()} </Wrapper>
 }
 
 const Wrapper = styled.div`

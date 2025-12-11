@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
         <BlockRight>
           <Line style={{ lineHeight: '1.6rem' }}>
             <FaMapMarkerAlt color={colors.main} style={iconStyle} />
-            Lieu Dit Merugat – 82150 Valeilles
+            503 ROUTE DU MERUGAT – 82150 Valeilles
           </Line>
           <Line>
             <FaPhone color={colors.main} style={iconStyle} />
