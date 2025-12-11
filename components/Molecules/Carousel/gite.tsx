@@ -5,6 +5,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import 'swiper/css'
+import AnimatedSection from '../../Atoms/AnimatedSection'
 
 const images = [
   { src: '/img/gite/gite.jpg' },
@@ -21,8 +22,9 @@ const images = [
 
 const GiteCarousel: React.FC = () => {
   return (
-    <StyledCarousel>
-      <Swiper
+    <AnimatedSection direction="up" duration={0.7} delay={0.1}>
+      <StyledCarousel>
+        <Swiper
         breakpoints={{
           640: {
             width: 640,
@@ -54,16 +56,24 @@ const GiteCarousel: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </StyledCarousel>
+      </StyledCarousel>
+    </AnimatedSection>
   )
 }
 
 import colors from '../../../constants/colors'
 
+import { mq } from 'constants/mediaQueries'
+
 const StyledCarousel = styled.div`
   width: 100%;
-  margin-bottom: 5rem;
-  padding: 1rem 0;
+  margin-bottom: 3rem;
+  padding: 0.5rem 0;
+
+  @media (min-width: ${mq.mobile}) {
+    margin-bottom: 5rem;
+    padding: 1rem 0;
+  }
 
   .swiper-slide {
     border-radius: 8px;
@@ -81,11 +91,16 @@ const StyledCarousel = styled.div`
   .swiper-button-prev {
     color: ${colors.main};
     background: white;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
+
+    @media (min-width: ${mq.mobile}) {
+      width: 44px;
+      height: 44px;
+    }
 
     &:hover {
       background: ${colors.main};
@@ -94,8 +109,12 @@ const StyledCarousel = styled.div`
     }
 
     &::after {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
+
+      @media (min-width: ${mq.mobile}) {
+        font-size: 18px;
+      }
     }
   }
 `

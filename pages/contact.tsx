@@ -22,7 +22,6 @@ const Home: NextPage = () => {
 }
 
 import { mq } from 'constants/mediaQueries'
-import colors from '../constants/colors'
 
 const ImageContainer = styled.div`
   position: relative;

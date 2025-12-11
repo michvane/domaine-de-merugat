@@ -2,6 +2,7 @@ import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../constants/colors'
+import AnimatedSection from '../../Atoms/AnimatedSection'
 
 const Reviews: React.FC = () => {
   const { t } = useTranslation('common')
@@ -22,13 +23,22 @@ const Reviews: React.FC = () => {
   ]
   return (
     <ReviewsSection>
-      <ReviewsTitle>{t('home.reviews.title')}</ReviewsTitle>
+      <AnimatedSection direction="fade" duration={0.6}>
+        <ReviewsTitle>{t('home.reviews.title')}</ReviewsTitle>
+      </AnimatedSection>
       <Grid>
-        {reviews.map((review) => (
-          <ReviewContainer key={review.name}>
-            <ReviewName>{review.name}</ReviewName>
-            <ReviewText>{review.text}</ReviewText>
-          </ReviewContainer>
+        {reviews.map((review, index) => (
+          <AnimatedSection
+            key={review.name}
+            direction="up"
+            delay={index * 0.15}
+            duration={0.6}
+          >
+            <ReviewContainer>
+              <ReviewName>{review.name}</ReviewName>
+              <ReviewText>{review.text}</ReviewText>
+            </ReviewContainer>
+          </AnimatedSection>
         ))}
       </Grid>
     </ReviewsSection>

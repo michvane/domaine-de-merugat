@@ -2,35 +2,42 @@ import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
+import AnimatedSection from '../../../Atoms/AnimatedSection'
 
 const GiteInfo: React.FC = () => {
   const { t } = useTranslation('common')
 
   return (
-    <Grid>
-      <BlockRight>
-        <SmallTitle>{t('gite.info.title')}</SmallTitle>
-        <ul>
-          <li>{t('gite.info.item1')}</li>
-          <li>{t('gite.info.item2')}</li>
-          <li>{t('gite.info.item3')}</li>
-          <li>{t('gite.info.item4')}</li>
-          <li>{t('gite.info.item5')}</li>
-          <li>{t('gite.info.item6')}</li>
-          <li>{t('gite.info.item7')}</li>
-          <li>{t('gite.info.item8')}</li>
-          <li>{t('gite.info.item9')}</li>
-          <li>{t('gite.info.item10')}</li>
-          <li>{t('gite.info.item11')}</li>
-          <li>{t('gite.info.item12')}</li>
-          <li>{t('gite.info.item13')}</li>
-          <li>{t('gite.info.item14')}</li>
-          <li>{t('gite.info.item15')}</li>
-          <li>{t('gite.info.item16')}</li>
-        </ul>
-      </BlockRight>
-      <BlockLeft></BlockLeft>
-    </Grid>
+    <AnimatedSection direction="up" duration={0.7}>
+      <Grid>
+        <BlockRight>
+          <AnimatedSection direction="fade" delay={0.1} duration={0.6}>
+            <SmallTitle>{t('gite.info.title')}</SmallTitle>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.2} duration={0.6}>
+            <ul>
+              <li>{t('gite.info.item1')}</li>
+              <li>{t('gite.info.item2')}</li>
+              <li>{t('gite.info.item3')}</li>
+              <li>{t('gite.info.item4')}</li>
+              <li>{t('gite.info.item5')}</li>
+              <li>{t('gite.info.item6')}</li>
+              <li>{t('gite.info.item7')}</li>
+              <li>{t('gite.info.item8')}</li>
+              <li>{t('gite.info.item9')}</li>
+              <li>{t('gite.info.item10')}</li>
+              <li>{t('gite.info.item11')}</li>
+              <li>{t('gite.info.item12')}</li>
+              <li>{t('gite.info.item13')}</li>
+              <li>{t('gite.info.item14')}</li>
+              <li>{t('gite.info.item15')}</li>
+              <li>{t('gite.info.item16')}</li>
+            </ul>
+          </AnimatedSection>
+        </BlockRight>
+        <BlockLeft></BlockLeft>
+      </Grid>
+    </AnimatedSection>
   )
 }
 

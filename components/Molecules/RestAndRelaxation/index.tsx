@@ -4,30 +4,42 @@ import { StyledLink } from '../../Atoms/Button'
 import Link from 'next/link'
 import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
+import AnimatedSection from '../../Atoms/AnimatedSection'
+
 const RestAndRelaxation: React.FC = () => {
   const { t } = useTranslation('common')
 
   return (
-    <Grid>
-      <BlockRight>
-        <SmallTitle>{t('home.rest.title')}</SmallTitle>
-        <p style={{ lineHeight: '1.6rem' }}>
-        {t('home.rest.block-one')}
-        </p>
-        <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
-        {t('home.rest.block-two')}
-        </p>
-        <LinkGrid>
-          <Link href={'/gite'} passHref>
-            <StyledLink>{t('home.rest.gite')}</StyledLink>
-          </Link>
-          <Link href={'/bnb'} passHref>
-            <StyledLink>{t('home.rest.bnb')}</StyledLink>
-          </Link>
-        </LinkGrid>
-      </BlockRight>
-      <BlockLeft />
-    </Grid>
+    <AnimatedSection direction="up" duration={0.7}>
+      <Grid>
+        <BlockRight>
+          <AnimatedSection direction="fade" delay={0.1} duration={0.5}>
+            <SmallTitle>{t('home.rest.title')}</SmallTitle>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.2} duration={0.5}>
+            <p style={{ lineHeight: '1.6rem' }}>
+            {t('home.rest.block-one')}
+            </p>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.3} duration={0.5}>
+            <p style={{ lineHeight: '1.6rem', marginBottom: '2rem' }}>
+            {t('home.rest.block-two')}
+            </p>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.4} duration={0.5}>
+            <LinkGrid>
+              <Link href={'/gite'} passHref>
+                <StyledLink>{t('home.rest.gite')}</StyledLink>
+              </Link>
+              <Link href={'/bnb'} passHref>
+                <StyledLink>{t('home.rest.bnb')}</StyledLink>
+              </Link>
+            </LinkGrid>
+          </AnimatedSection>
+        </BlockRight>
+        <BlockLeft />
+      </Grid>
+    </AnimatedSection>
   )
 }
 

@@ -7,6 +7,7 @@ import colors from '../constants/colors'
 import front from '../public/img/tarieven/front.jpg'
 import { mq } from 'constants/mediaQueries'
 import Head from 'next/head'
+import AnimatedSection from '../components/Atoms/AnimatedSection'
 
 const Tariffs: NextPage = () => {
   const { t } = useTranslation('common')
@@ -20,25 +21,33 @@ const Tariffs: NextPage = () => {
         <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
       </ImageContainer>
       <Container>
-        <h1>{t('tarrifs.tarrifs')}</h1>
+        <AnimatedSection direction="fade" duration={0.6}>
+          <PageTitle>{t('tarrifs.tarrifs')}</PageTitle>
+        </AnimatedSection>
         <Grid>
-          <TextDiv>
-            <SmallTitle>{t('tarrifs.price-gite')}</SmallTitle>
-            <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block1', { interpolation: { escapeValue: false } }) }} />
-          </TextDiv>
-          <TextDiv>
-            <SmallTitle>{t('tarrifs.price-bnb')}</SmallTitle>
-            <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block2', { interpolation: { escapeValue: false } }) }} />
-          </TextDiv>
+          <AnimatedSection direction="up" delay={0.1} duration={0.6}>
+            <TextDiv>
+              <SmallTitle>{t('tarrifs.price-gite')}</SmallTitle>
+              <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block1', { interpolation: { escapeValue: false } }) }} />
+            </TextDiv>
+          </AnimatedSection>
+          <AnimatedSection direction="up" delay={0.15} duration={0.6}>
+            <TextDiv>
+              <SmallTitle>{t('tarrifs.price-bnb')}</SmallTitle>
+              <div dangerouslySetInnerHTML={{ __html: t('tarrifs.block2', { interpolation: { escapeValue: false } }) }} />
+            </TextDiv>
+          </AnimatedSection>
         </Grid>
-        <TextDiv>
-          <SmallTitle>{t('tarrifs.cancel-title')}</SmallTitle>
-          <p>
-            <div
-              dangerouslySetInnerHTML={{ __html: t('tarrifs.cancel-text', { interpolation: { escapeValue: false } }) }}
-            />
-          </p>
-        </TextDiv>
+        <AnimatedSection direction="up" delay={0.2} duration={0.6}>
+          <TextDiv>
+            <SmallTitle>{t('tarrifs.cancel-title')}</SmallTitle>
+            <p>
+              <div
+                dangerouslySetInnerHTML={{ __html: t('tarrifs.cancel-text', { interpolation: { escapeValue: false } }) }}
+              />
+            </p>
+          </TextDiv>
+        </AnimatedSection>
       </Container>
     </>
   )
@@ -64,6 +73,24 @@ const ImageContainer = styled.div`
   }
 `
 
+const PageTitle = styled.h1`
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: ${colors.text.primary};
+  font-family: 'Raleway', sans-serif;
+
+  @media (min-width: ${mq.mobile}) {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+`
+
 const TextDiv = styled.div`
   background: ${colors.beige};
   padding: 1.5rem;
@@ -77,17 +104,6 @@ const TextDiv = styled.div`
 
   @media (min-width: ${mq.tablet}) {
     padding: 3.5rem;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-    margin-bottom: 1.5rem;
-    color: ${colors.text.primary};
-
-    @media (min-width: ${mq.mobile}) {
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-    }
   }
 
   div {

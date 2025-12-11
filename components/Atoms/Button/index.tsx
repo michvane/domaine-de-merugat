@@ -52,14 +52,13 @@ export const StyledLink = styled.a`
   text-decoration: none;
   border-radius: 8px;
   transition: all 0.3s ease;
-  display: inline-block;
+  display: block;
   min-height: 44px;
   width: 100%;
 
   @media (min-width: ${mq.mobile}) {
     padding: 0.875rem 2rem;
     font-size: 1rem;
-    width: auto;
   }
 
   &:hover {

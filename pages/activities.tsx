@@ -7,6 +7,7 @@ import colors from '../constants/colors'
 import front from '../public/img/activities/penne-dagenais.jpg'
 import { mq } from 'constants/mediaQueries'
 import Head from 'next/head'
+import AnimatedSection from '../components/Atoms/AnimatedSection'
 
 const Tariffs: NextPage = () => {
   const { t } = useTranslation('common')
@@ -21,104 +22,120 @@ const Tariffs: NextPage = () => {
       </ImageContainer>
 
       <Container>
-        <PageTitle>{t('activities.title')}</PageTitle>
+        <AnimatedSection direction="fade" duration={0.6}>
+          <PageTitle>{t('activities.title')}</PageTitle>
+        </AnimatedSection>
         <ActivitiesGrid>
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.markets')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.market1')}</li>
-              <li>{t('activities.market2')}</li>
-              <li>{t('activities.market3')}</li>
-              <li>{t('activities.market4')}</li>
-              <li>{t('activities.market5')}</li>
-              <li>{t('activities.market6')}</li>
-              <li>{t('activities.museum')}</li>
-              <li>{t('activities.truffles')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.1} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.markets')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.market1')}</li>
+                <li>{t('activities.market2')}</li>
+                <li>{t('activities.market3')}</li>
+                <li>{t('activities.market4')}</li>
+                <li>{t('activities.market5')}</li>
+                <li>{t('activities.market6')}</li>
+                <li>{t('activities.museum')}</li>
+                <li>{t('activities.truffles')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.beautiful_villages')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.village1')}</li>
-              <li>{t('activities.village2')}</li>
-              <li>{t('activities.village3')}</li>
-              <li>{t('activities.village4')}</li>
-              <li>{t('activities.village5')}</li>
-              <li>{t('activities.village6')}</li>
-              <li>{t('activities.village7')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.15} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.beautiful_villages')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.village1')}</li>
+                <li>{t('activities.village2')}</li>
+                <li>{t('activities.village3')}</li>
+                <li>{t('activities.village4')}</li>
+                <li>{t('activities.village5')}</li>
+                <li>{t('activities.village6')}</li>
+                <li>{t('activities.village7')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.restaurants')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.restaurant1')}</li>
-              <li>{t('activities.restaurant2')}</li>
-              <li>{t('activities.restaurant3')}</li>
-              <li>{t('activities.restaurant4')}</li>
-              <li>{t('activities.restaurant5')}</li>
-              <li>{t('activities.restaurant6')}</li>
-              <li>{t('activities.restaurant7')}</li>
-              <li>{t('activities.restaurant8')}</li>
-              <li>{t('activities.restaurant9')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.2} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.restaurants')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.restaurant1')}</li>
+                <li>{t('activities.restaurant2')}</li>
+                <li>{t('activities.restaurant3')}</li>
+                <li>{t('activities.restaurant4')}</li>
+                <li>{t('activities.restaurant5')}</li>
+                <li>{t('activities.restaurant6')}</li>
+                <li>{t('activities.restaurant7')}</li>
+                <li>{t('activities.restaurant8')}</li>
+                <li>{t('activities.restaurant9')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.shops')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.shop1')}</li>
-              <li>{t('activities.shop2')}</li>
-              <li>{t('activities.shop3')}</li>
-              <li>{t('activities.shop4')}</li>
-              <li>{t('activities.shop5')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.25} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.shops')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.shop1')}</li>
+                <li>{t('activities.shop2')}</li>
+                <li>{t('activities.shop3')}</li>
+                <li>{t('activities.shop4')}</li>
+                <li>{t('activities.shop5')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.amusement')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.amusement1')}</li>
-              <li>{t('activities.amusement2')}</li>
-              <li>{t('activities.amusement3')}</li>
-              <li>{t('activities.amusement4')}</li>
-              <li>{t('activities.amusement5')}</li>
-              <li>{t('activities.amusement6')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.3} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.amusement')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.amusement1')}</li>
+                <li>{t('activities.amusement2')}</li>
+                <li>{t('activities.amusement3')}</li>
+                <li>{t('activities.amusement4')}</li>
+                <li>{t('activities.amusement5')}</li>
+                <li>{t('activities.amusement6')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.castles')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.castle1')}</li>
-              <li>{t('activities.castle2')}</li>
-              <li>{t('activities.castle3')}</li>
-              <li>{t('activities.castle4')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.35} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.castles')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.castle1')}</li>
+                <li>{t('activities.castle2')}</li>
+                <li>{t('activities.castle3')}</li>
+                <li>{t('activities.castle4')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
 
-          <ActivityCard>
-            <CardHeader>
-              <SmallTitle>{t('activities.caves')}</SmallTitle>
-            </CardHeader>
-            <List>
-              <li>{t('activities.cave1')}</li>
-              <li>{t('activities.cave2')}</li>
-            </List>
-          </ActivityCard>
+          <AnimatedSection direction="up" delay={0.4} duration={0.6}>
+            <ActivityCard>
+              <CardHeader>
+                <SmallTitle>{t('activities.caves')}</SmallTitle>
+              </CardHeader>
+              <List>
+                <li>{t('activities.cave1')}</li>
+                <li>{t('activities.cave2')}</li>
+              </List>
+            </ActivityCard>
+          </AnimatedSection>
         </ActivitiesGrid>
       </Container>
     </>

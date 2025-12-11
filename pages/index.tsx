@@ -10,6 +10,7 @@ import { useTranslation } from 'react-i18next'
 import Head from 'next/head'
 import colors from '../constants/colors'
 import { mq } from 'constants/mediaQueries'
+import AnimatedSection from '../components/Atoms/AnimatedSection'
 
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
@@ -26,21 +27,23 @@ const Home: NextPage = () => {
         <AboutUs />
         <Carousel />
         <RestAndRelaxation />
-        <Intermediary>
-          <p
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              textAlign: 'center',
-              maxWidth: '1000px',
-            }}
-          >
-            {t('home.interlude.block-one')}
-            <br />
-            {t('home.interlude.block-two')}
-          </p>
-        </Intermediary>
+        <AnimatedSection direction="fade" duration={0.7}>
+          <Intermediary>
+            <p
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                textAlign: 'center',
+                maxWidth: '1000px',
+              }}
+            >
+              {t('home.interlude.block-one')}
+              <br />
+              {t('home.interlude.block-two')}
+            </p>
+          </Intermediary>
+        </AnimatedSection>
         <Reviews />
       </Container>
     </>

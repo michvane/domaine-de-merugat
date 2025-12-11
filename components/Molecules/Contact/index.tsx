@@ -4,6 +4,8 @@ import colors from '../../../constants/colors'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import { mq } from 'constants/mediaQueries'
+import AnimatedSection from '../../Atoms/AnimatedSection'
+
 const iconStyle = { marginRight: '0.75rem', flexShrink: 0, marginTop: '0.2rem' }
 
 const Contact: React.FC = () => {
@@ -11,37 +13,53 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <Grid>
-        <BlockLeft>
-          <SmallTitle>Contact</SmallTitle>
-          <h2 data-i18n="[html]contact.subtitle">
-            <div dangerouslySetInnerHTML={
-                {__html: t('contact.subtitle', {interpolation: {escapeValue: false}})}
-            } />
-          </h2>
-        </BlockLeft>
-        <BlockRight>
-          <Line>
-            <FaMapMarkerAlt color={colors.main} style={iconStyle} />
-            <span>503 ROUTE DU MERUGAT – 82150 Valeilles</span>
-          </Line>
-          <Line>
-            <FaPhone color={colors.main} style={iconStyle} />
-            <span>0032 475 595678</span>
-          </Line>
-          <Line>
-            <FaPhone color={colors.main} style={iconStyle} />
-            <span>0033 648 483610</span>
-          </Line>
-          <a href="mailto:kris.helga@outlook.fr" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <Line>
-              <FaEnvelope color={colors.main} style={iconStyle} />
-              <span>kris.helga@outlook.fr</span>
-            </Line>
-          </a>
-        </BlockRight>
-      </Grid>
-      <Map />
+      <AnimatedSection direction="up" duration={0.7}>
+        <Grid>
+          <BlockLeft>
+            <AnimatedSection direction="fade" delay={0.1} duration={0.6}>
+              <SmallTitle>Contact</SmallTitle>
+            </AnimatedSection>
+            <AnimatedSection direction="fade" delay={0.2} duration={0.6}>
+              <h2 data-i18n="[html]contact.subtitle">
+                <div dangerouslySetInnerHTML={
+                    {__html: t('contact.subtitle', {interpolation: {escapeValue: false}})}
+                } />
+              </h2>
+            </AnimatedSection>
+          </BlockLeft>
+          <BlockRight>
+            <AnimatedSection direction="fade" delay={0.3} duration={0.5}>
+              <Line>
+                <FaMapMarkerAlt color={colors.main} style={iconStyle} />
+                <span>503 ROUTE DU MERUGAT – 82150 Valeilles</span>
+              </Line>
+            </AnimatedSection>
+            <AnimatedSection direction="fade" delay={0.35} duration={0.5}>
+              <Line>
+                <FaPhone color={colors.main} style={iconStyle} />
+                <span>0032 475 595678</span>
+              </Line>
+            </AnimatedSection>
+            <AnimatedSection direction="fade" delay={0.4} duration={0.5}>
+              <Line>
+                <FaPhone color={colors.main} style={iconStyle} />
+                <span>0033 648 483610</span>
+              </Line>
+            </AnimatedSection>
+            <AnimatedSection direction="fade" delay={0.45} duration={0.5}>
+              <a href="mailto:kris.helga@outlook.fr" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Line>
+                  <FaEnvelope color={colors.main} style={iconStyle} />
+                  <span>kris.helga@outlook.fr</span>
+                </Line>
+              </a>
+            </AnimatedSection>
+          </BlockRight>
+        </Grid>
+      </AnimatedSection>
+      <AnimatedSection direction="up" delay={0.2} duration={0.7}>
+        <Map />
+      </AnimatedSection>
     </>
   )
 }
@@ -82,7 +100,7 @@ const MapContainer = styled.div`
 const Line = styled.p`
   display: flex;
   align-items: flex-start;
-  margin: 0 0 1rem 0;
+  margin: 0 0 20px 0;
   font-size: 0.9rem;
   color: ${colors.text.primary};
   transition: all 0.3s ease;
@@ -92,10 +110,6 @@ const Line = styled.p`
   @media (min-width: ${mq.mobile}) {
     font-size: 1.05rem;
     margin: 0 0 1.25rem 0;
-  }
-
-  &:last-child {
-    margin-bottom: 0;
   }
 `
 

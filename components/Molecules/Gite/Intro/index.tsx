@@ -2,22 +2,31 @@ import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
+import AnimatedSection from '../../../Atoms/AnimatedSection'
 
 const GiteIntro: React.FC = () => {
   const { t } = useTranslation('common')
 
   return (
-    <Grid>
-      <BlockLeft>
-        <SmallTitle>{t('gite.welcome.title')}</SmallTitle>
-        <h2>{t('gite.welcome.subtitle')}</h2>
-      </BlockLeft>
-      <BlockRight>
-        <p style={{ lineHeight: '1.6rem' }}>
-        {t('gite.welcome.text')}
-        </p>
-      </BlockRight>
-    </Grid>
+    <AnimatedSection direction="up" duration={0.7}>
+      <Grid>
+        <BlockLeft>
+          <AnimatedSection direction="fade" delay={0.1} duration={0.6}>
+            <SmallTitle>{t('gite.welcome.title')}</SmallTitle>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.2} duration={0.6}>
+            <h2>{t('gite.welcome.subtitle')}</h2>
+          </AnimatedSection>
+        </BlockLeft>
+        <BlockRight>
+          <AnimatedSection direction="fade" delay={0.3} duration={0.6}>
+            <p style={{ lineHeight: '1.6rem' }}>
+            {t('gite.welcome.text')}
+            </p>
+          </AnimatedSection>
+        </BlockRight>
+      </Grid>
+    </AnimatedSection>
   )
 }
 

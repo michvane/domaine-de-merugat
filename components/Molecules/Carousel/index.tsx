@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
+import AnimatedSection from '../../Atoms/AnimatedSection'
 
 const images = [
   { src: '/img/prieel.jpg' },
@@ -13,8 +14,9 @@ const images = [
 
 const CarouselComponent: React.FC = () => {
   return (
-    <StyledCarousel>
-      <Swiper
+    <AnimatedSection direction="up" duration={0.7} delay={0.1}>
+      <StyledCarousel>
+        <Swiper
         breakpoints={{
           640: {
             width: 640,
@@ -45,7 +47,8 @@ const CarouselComponent: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </StyledCarousel>
+      </StyledCarousel>
+    </AnimatedSection>
   )
 }
 

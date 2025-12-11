@@ -2,29 +2,36 @@ import { mq } from 'constants/mediaQueries'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import colors from '../../../../constants/colors'
+import AnimatedSection from '../../../Atoms/AnimatedSection'
 
 const GiteInfo: React.FC = () => {
   const { t } = useTranslation('common')
 
   return (
-    <Grid>
-      <BlockRight>
-        <SmallTitle>{t('bnb.info.title')}</SmallTitle>
-        <ul>
-          <li>{t('bnb.info.item1')}</li>
-          <li>{t('bnb.info.item2')}</li>
-          <li>{t('bnb.info.item3')}</li>
-          <li>{t('bnb.info.item4')}</li>
-          <li>{t('bnb.info.item5')}</li>
-          <li>{t('bnb.info.item6')}</li>
-          <li>{t('bnb.info.item7')}</li>
-          <li>{t('bnb.info.item8')}</li>
-          <li>{t('bnb.info.item9')}</li>
-          <li>{t('bnb.info.item10')}</li>
-        </ul>
-      </BlockRight>
-      <BlockLeft />
-    </Grid>
+    <AnimatedSection direction="up" duration={0.7}>
+      <Grid>
+        <BlockRight>
+          <AnimatedSection direction="fade" delay={0.1} duration={0.6}>
+            <SmallTitle>{t('bnb.info.title')}</SmallTitle>
+          </AnimatedSection>
+          <AnimatedSection direction="fade" delay={0.2} duration={0.6}>
+            <ul>
+              <li>{t('bnb.info.item1')}</li>
+              <li>{t('bnb.info.item2')}</li>
+              <li>{t('bnb.info.item3')}</li>
+              <li>{t('bnb.info.item4')}</li>
+              <li>{t('bnb.info.item5')}</li>
+              <li>{t('bnb.info.item6')}</li>
+              <li>{t('bnb.info.item7')}</li>
+              <li>{t('bnb.info.item8')}</li>
+              <li>{t('bnb.info.item9')}</li>
+              <li>{t('bnb.info.item10')}</li>
+            </ul>
+          </AnimatedSection>
+        </BlockRight>
+        <BlockLeft />
+      </Grid>
+    </AnimatedSection>
   )
 }
 
