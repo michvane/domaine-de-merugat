@@ -68,7 +68,6 @@ const Tariffs: NextPage = () => {
                 <SmallTitle>{t('activities.restaurants')}</SmallTitle>
               </CardHeader>
               <List>
-                <li>{t('activities.restaurant1')}</li>
                 <li>{t('activities.restaurant2')}</li>
                 <li>{t('activities.restaurant3')}</li>
                 <li>{t('activities.restaurant4')}</li>
