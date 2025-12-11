@@ -73,6 +73,20 @@ const StyledCarousel = styled.div`
   .swiper-slide {
     border-radius: 8px;
     overflow: hidden;
+    height: 300px;
+
+    @media (min-width: ${mq.mobile}) {
+      height: 250px;
+    }
+
+    @media (min-width: ${mq.tablet}) {
+      height: 350px;
+    }
+
+    > div {
+      width: 100%;
+      height: 100%;
+    }
 
     img {
       width: 100%;
