@@ -144,19 +144,24 @@ const Tariffs: NextPage = () => {
 }
 
 const PageTitle = styled.h1`
-  font-size: 2rem;
+  font-size: 1.75rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   color: ${colors.text.primary};
   font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  font-weight: 600;
 
   @media (min-width: ${mq.mobile}) {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
     margin-bottom: 3rem;
   }
 
   @media (min-width: ${mq.tablet}) {
-    font-size: 3rem;
+    font-size: 2.25rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
   }
 `

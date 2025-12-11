@@ -45,8 +45,8 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         }
       },
       {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px',
+        threshold: 0.01,
+        rootMargin: window.innerWidth < 768 ? '200px 0px 0px 0px' : '0px 0px -50px 0px',
       }
     )
 
@@ -85,11 +85,11 @@ const AnimatedWrapper = styled.div<{
     if (!props.$isVisible) {
       switch (props.$direction) {
         case 'up':
-          return 'translateY(30px)'
+          return 'translateY(20px)'
         case 'left':
-          return 'translateX(-30px)'
+          return 'translateX(-20px)'
         case 'right':
-          return 'translateX(30px)'
+          return 'translateX(20px)'
         default:
           return 'none'
       }
@@ -100,6 +100,24 @@ const AnimatedWrapper = styled.div<{
     transform ${props => props.$duration}s ease-out;
   transition-delay: ${props => props.$delay}s;
   will-change: opacity, transform;
+
+  @media (max-width: 768px) {
+    transform: ${props => {
+      if (!props.$isVisible) {
+        switch (props.$direction) {
+          case 'up':
+            return 'translateY(15px)'
+          case 'left':
+            return 'translateX(-15px)'
+          case 'right':
+            return 'translateX(15px)'
+          default:
+            return 'none'
+        }
+      }
+      return 'translateY(0) translateX(0)'
+    }};
+  }
 
   /* Respect user's motion preferences */
   @media (prefers-reduced-motion: reduce) {
