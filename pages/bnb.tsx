@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import front from '../public/img/bnb/front.jpg'
-import styled from 'styled-components'
 import Container from '../components/Atoms/Container'
 import Intro from '../components/Molecules/Bnb/Intro'
 import Info from '../components/Molecules/Bnb/Info'

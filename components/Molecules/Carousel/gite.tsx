@@ -38,12 +38,12 @@ const GiteCarousel: React.FC = () => {
           1200: {
             width: 1200,
             slidesPerView: 2.2,
-            spaceBetween: 50,
+            spaceBetween: 24,
           },
         }}
         modules={[Navigation]}
         navigation
-        spaceBetween={50}
+        spaceBetween={24}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         autoplay

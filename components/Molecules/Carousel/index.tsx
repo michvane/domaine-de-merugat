@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
 import 'swiper/css'
 import AnimatedSection from '../../Atoms/AnimatedSection'
 
@@ -29,12 +32,12 @@ const CarouselComponent: React.FC = () => {
           1200: {
             width: 1200,
             slidesPerView: 3.2,
-            spaceBetween: 50,
+            spaceBetween: 24,
           },
         }}
         modules={[Navigation]}
         navigation
-        spaceBetween={24}
+        spaceBetween={16}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         autoplay
@@ -111,3 +114,5 @@ const StyledCarousel = styled.div`
 `
 
 export default CarouselComponent
+
+
