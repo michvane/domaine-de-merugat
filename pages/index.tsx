@@ -30,7 +30,13 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Domaine De Merugat</title>
+        <title>Domaine De Merugat - Gîte and B&B in France</title>
+        <meta name="description" content="Experience the charm of Domaine De Merugat, a beautiful gîte and B&B in the heart of France. Book your stay for a relaxing getaway." />
+        <meta property="og:title" content="Domaine De Merugat - Gîte and B&B in France" />
+        <meta property="og:description" content="Experience the charm of Domaine De Merugat, a beautiful gîte and B&B in the heart of France." />
+        <meta property="og:image" content={imageSrc} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
         {/* Preload current page image */}
         <link rel="preload" as="image" href={imageSrc} />
         {/* Prefetch other pages' header images for instant loading on navigation */}

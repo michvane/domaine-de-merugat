@@ -1,0 +1,21 @@
+{
+  "name": "Domaine De Merugat",
+  "short_name": "Merugat",
+  "description": "Gîte and B&B in France",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#8B6F47",
+  "background_color": "#FFF3EC",
+  "display": "standalone"
+}
+
