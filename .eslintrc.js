@@ -26,7 +26,6 @@ module.exports = {
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-uses-react': 'off',
-    'max-lines': ['error', 150],
     'no-implicit-coercion': ['error', { boolean: true, string: true }],
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/ban-types': 'warn',
