@@ -51,6 +51,15 @@ const LinkGrid = styled.div`
 
   @media (min-width: ${mq.mobile}) {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    grid-gap: 1.25rem;
+  }
+
+  a {
+    min-width: 0;
   }
 `
 

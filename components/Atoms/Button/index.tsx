@@ -49,20 +49,29 @@ export const StyledLink = styled.a`
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
   border-radius: 8px;
   transition: all 0.3s ease;
   display: block;
   min-height: 44px;
   width: 100%;
+  overflow: hidden;
+  word-break: break-word;
+  hyphens: auto;
 
   @media (min-width: ${mq.mobile}) {
-    padding: 0.875rem 2rem;
-    font-size: 1rem;
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    padding: 0.875rem 1.25rem;
+    font-size: 0.9rem;
   }
 
   &:hover {
     background: ${colors.dark};
+    text-decoration: none !important;
   }
 
   &:active {
@@ -72,6 +81,11 @@ export const StyledLink = styled.a`
   &:focus {
     outline: none;
     box-shadow: 0 0 0 3px ${colors.main}30;
+    text-decoration: none !important;
+  }
+
+  &:visited {
+    text-decoration: none !important;
   }
 `
 

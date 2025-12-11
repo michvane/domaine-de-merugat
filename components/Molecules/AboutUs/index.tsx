@@ -56,18 +56,40 @@ const BlockRight = styled.div`
   padding: 1.5rem;
   background: ${colors.beige};
   border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media (min-width: ${mq.mobile}) {
-    padding: 3.5rem;
+    padding: 2.5rem;
     border-radius: 0 8px 8px 0;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    padding: 3.5rem;
+  }
+
+  > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   p {
     color: ${colors.text.secondary};
     font-size: 0.95rem;
     line-height: 1.7;
+    text-align: center;
+    margin: 0;
 
     @media (min-width: ${mq.mobile}) {
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    @media (min-width: ${mq.tablet}) {
       font-size: 1.05rem;
       line-height: 1.8;
     }
@@ -83,8 +105,12 @@ const BlockLeft = styled.div`
   border-radius: 8px 8px 0 0;
 
   @media (min-width: ${mq.mobile}) {
-    padding: 3.5rem;
+    padding: 2.5rem;
     border-radius: 8px 0 0 8px;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    padding: 3.5rem;
   }
 
   h2 {
@@ -93,7 +119,7 @@ const BlockLeft = styled.div`
     color: ${colors.text.primary};
 
     @media (min-width: ${mq.mobile}) {
-      font-size: 2rem;
+      font-size: 1.75rem;
     }
 
     @media (min-width: ${mq.tablet}) {

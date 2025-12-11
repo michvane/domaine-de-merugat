@@ -10,7 +10,7 @@ const StyledParagraph = styled.p`
   color: ${colors.main};
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   letter-spacing: 1px;
   margin: 0 0 0.5rem 0;
 `

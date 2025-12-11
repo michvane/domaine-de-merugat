@@ -73,6 +73,7 @@ const BlockRight = styled.div`
     font-size: 0.95rem;
     line-height: 1.7;
     margin: 0;
+    text-align: center;
 
     @media (min-width: ${mq.mobile}) {
       font-size: 1.05rem;
@@ -99,16 +100,18 @@ const BlockLeft = styled.div`
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0.5rem 0 0 0;
     color: ${colors.text.primary};
+    font-weight: 600;
+    line-height: 1.4;
 
     @media (min-width: ${mq.mobile}) {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     @media (min-width: ${mq.tablet}) {
-      font-size: 2.5rem;
+      font-size: 1.75rem;
     }
   }
 `
