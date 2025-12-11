@@ -7,18 +7,19 @@ import Info from '../components/Molecules/Bnb/Info'
 import BnbCarousel from '../components/Molecules/Carousel/bnb'
 import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
+import HeaderImage from '../components/Atoms/HeaderImage'
 
 const Bnb: NextPage = () => {
   const { t } = useTranslation('common')
+  const imageSrc = typeof front === 'string' ? front : front.src
 
   return (
     <>
       <Head>
         <title>{t('bnb.title')}</title>
+        <link rel="preload" as="image" href={imageSrc} />
       </Head>
-      <ImgWrapper>
-        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
-      </ImgWrapper>
+      <HeaderImage src={front} alt="Picture of the whole area" priority />
       <Container>
         <Intro />
         <BnbCarousel />
@@ -27,29 +28,5 @@ const Bnb: NextPage = () => {
     </>
   )
 }
-
-import colors from '../constants/colors'
-
-import { mq } from 'constants/mediaQueries'
-
-const ImgWrapper = styled.div`
-  position: relative;
-  width: 100%;
-  height: 40vh;
-  min-height: 300px;
-  overflow: hidden;
-
-  @media (min-width: ${mq.mobile}) {
-    height: 50vh;
-    min-height: 400px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-`
 
 export default Bnb

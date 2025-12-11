@@ -6,16 +6,18 @@ import GiteCarousel from '../components/Molecules/Carousel/gite'
 import GiteIntro from '../components/Molecules/Gite/Intro'
 import GiteInfo from '../components/Molecules/Gite/Info'
 import Head from 'next/head'
+import HeaderImage from '../components/Atoms/HeaderImage'
 
 const Gite: NextPage = () => {
+  const imageSrc = typeof front === 'string' ? front : front.src
+
   return (
     <>
       <Head>
         <title>Gîte - Domaine De Merugat</title>
+        <link rel="preload" as="image" href={imageSrc} />
       </Head>
-      <ImgWrapper>
-        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
-      </ImgWrapper>
+      <HeaderImage src={front} alt="Picture of the whole area" priority />
       <Container>
         <GiteIntro />
         <GiteCarousel />
@@ -24,29 +26,5 @@ const Gite: NextPage = () => {
     </>
   )
 }
-
-import colors from '../constants/colors'
-
-import { mq } from 'constants/mediaQueries'
-
-const ImgWrapper = styled.div`
-  position: relative;
-  width: 100%;
-  height: 40vh;
-  min-height: 300px;
-  overflow: hidden;
-
-  @media (min-width: ${mq.mobile}) {
-    height: 50vh;
-    min-height: 400px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-`
 
 export default Gite

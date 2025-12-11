@@ -8,18 +8,19 @@ import front from '../public/img/tarieven/front.jpg'
 import { mq } from 'constants/mediaQueries'
 import Head from 'next/head'
 import AnimatedSection from '../components/Atoms/AnimatedSection'
+import HeaderImage from '../components/Atoms/HeaderImage'
 
 const Tariffs: NextPage = () => {
   const { t } = useTranslation('common')
+  const imageSrc = typeof front === 'string' ? front : front.src
 
   return (
     <>
       <Head>
         <title>{t('tarrifs.title')}</title>
+        <link rel="preload" as="image" href={imageSrc} />
       </Head>
-      <ImageContainer>
-        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
-      </ImageContainer>
+      <HeaderImage src={front} alt="Picture of the whole area" priority />
       <Container>
         <AnimatedSection direction="fade" duration={0.6}>
           <PageTitle>{t('tarrifs.tarrifs')}</PageTitle>
@@ -52,26 +53,6 @@ const Tariffs: NextPage = () => {
     </>
   )
 }
-
-const ImageContainer = styled.div`
-  position: relative;
-  width: 100%;
-  height: 40vh;
-  min-height: 300px;
-  overflow: hidden;
-
-  @media (min-width: ${mq.mobile}) {
-    height: 50vh;
-    min-height: 400px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-`
 
 const PageTitle = styled.h1`
   font-size: 2rem;

@@ -1,5 +1,10 @@
 import type { NextPage } from 'next'
 import front from '../public/img/front-page.jpg'
+import bnbFront from '../public/img/bnb/front.jpg'
+import giteFront from '../public/img/gite/overview.jpg'
+import activitiesFront from '../public/img/activities/penne-dagenais.jpg'
+import tariffsFront from '../public/img/tarieven/front.jpg'
+import contactFront from '../public/img/contact/front.jpg'
 import Container from '../components/Atoms/Container'
 import Reviews from '../components/Molecules/Reviews'
 import AboutUs from '../components/Molecules/AboutUs'
@@ -11,18 +16,31 @@ import Head from 'next/head'
 import colors from '../constants/colors'
 import { mq } from 'constants/mediaQueries'
 import AnimatedSection from '../components/Atoms/AnimatedSection'
+import HeaderImage from '../components/Atoms/HeaderImage'
 
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
+  const imageSrc = typeof front === 'string' ? front : front.src
+  const bnbImageSrc = typeof bnbFront === 'string' ? bnbFront : bnbFront.src
+  const giteImageSrc = typeof giteFront === 'string' ? giteFront : giteFront.src
+  const activitiesImageSrc = typeof activitiesFront === 'string' ? activitiesFront : activitiesFront.src
+  const tariffsImageSrc = typeof tariffsFront === 'string' ? tariffsFront : tariffsFront.src
+  const contactImageSrc = typeof contactFront === 'string' ? contactFront : contactFront.src
 
   return (
     <>
       <Head>
         <title>Domaine De Merugat</title>
+        {/* Preload current page image */}
+        <link rel="preload" as="image" href={imageSrc} />
+        {/* Prefetch other pages' header images for instant loading on navigation */}
+        <link rel="prefetch" as="image" href={bnbImageSrc} />
+        <link rel="prefetch" as="image" href={giteImageSrc} />
+        <link rel="prefetch" as="image" href={activitiesImageSrc} />
+        <link rel="prefetch" as="image" href={tariffsImageSrc} />
+        <link rel="prefetch" as="image" href={contactImageSrc} />
       </Head>
-      <ImageContainer>
-        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
-      </ImageContainer>
+      <HeaderImage src={front} alt="Picture of the whole area" priority />
       <Container>
         <AboutUs />
         <Carousel />
@@ -49,26 +67,6 @@ const Home: NextPage = () => {
     </>
   )
 }
-
-const ImageContainer = styled.div`
-  position: relative;
-  width: 100%;
-  height: 40vh;
-  min-height: 300px;
-  overflow: hidden;
-
-  @media (min-width: ${mq.mobile}) {
-    height: 50vh;
-    min-height: 400px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-`
 
 const Intermediary = styled.div`
   display: flex;
