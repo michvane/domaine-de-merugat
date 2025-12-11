@@ -17,12 +17,16 @@ const ContainerWrapper = styled.div`
 `
 
 const PageWidth = styled.div`
-  padding: 1.2rem;
+  padding: 1rem;
   max-width: 1280px;
-  min-width: 80vw;
+  width: 100%;
 
   @media (min-width: ${mq.mobile}) {
-    padding: 3.2rem;
+    padding: 2rem 3rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 2rem 4rem;
   }
 `
 

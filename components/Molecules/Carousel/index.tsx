@@ -32,7 +32,7 @@ const CarouselComponent: React.FC = () => {
         }}
         modules={[Navigation]}
         navigation
-        spaceBetween={50}
+        spaceBetween={24}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         autoplay
@@ -49,10 +49,62 @@ const CarouselComponent: React.FC = () => {
   )
 }
 
+import colors from '../../../constants/colors'
+
+import { mq } from 'constants/mediaQueries'
+
 const StyledCarousel = styled.div`
   width: 100%;
-  margin-bottom: 4rem;
-  cursor: 'pointer';
+  margin-bottom: 3rem;
+  padding: 0.5rem 0;
+
+  @media (min-width: ${mq.mobile}) {
+    margin-bottom: 5rem;
+    padding: 1rem 0;
+  }
+
+  .swiper-slide {
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${colors.main};
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+
+    @media (min-width: ${mq.mobile}) {
+      width: 44px;
+      height: 44px;
+    }
+
+    &:hover {
+      background: ${colors.main};
+      color: white;
+      box-shadow: 0 2px 8px rgba(139, 111, 71, 0.2);
+    }
+
+    &::after {
+      font-size: 16px;
+      font-weight: 700;
+
+      @media (min-width: ${mq.mobile}) {
+        font-size: 18px;
+      }
+    }
+  }
 `
 
 export default CarouselComponent

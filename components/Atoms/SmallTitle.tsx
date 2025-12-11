@@ -9,7 +9,10 @@ const SmallTitle: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
 const StyledParagraph = styled.p`
   color: ${colors.main};
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 0 0 0.5rem 0;
 `
 
 export default SmallTitle

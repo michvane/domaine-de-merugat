@@ -42,6 +42,10 @@ export default class MyDocument extends Document {
           />
           <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;600&display=swap" rel="stylesheet" />
           <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;800&display=swap"
             rel="stylesheet"
           />

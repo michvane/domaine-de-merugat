@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
 import front from '../public/img/gite/overview.jpg'
 import styled from 'styled-components'
 import Container from '../components/Atoms/Container'
@@ -15,7 +14,7 @@ const Gite: NextPage = () => {
         <title>Gîte - Domaine De Merugat</title>
       </Head>
       <ImgWrapper>
-        <Image src={front} fill style={{ objectFit: 'cover' }} alt="Picture of the whole area" />
+        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
       </ImgWrapper>
       <Container>
         <GiteIntro />
@@ -26,11 +25,28 @@ const Gite: NextPage = () => {
   )
 }
 
+import colors from '../constants/colors'
+
+import { mq } from 'constants/mediaQueries'
+
 const ImgWrapper = styled.div`
   position: relative;
   width: 100%;
-  height: 60vh;
-  min-height: 400px;
+  height: 40vh;
+  min-height: 300px;
+  overflow: hidden;
+
+  @media (min-width: ${mq.mobile}) {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 `
 
 export default Gite

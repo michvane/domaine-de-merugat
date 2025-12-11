@@ -5,7 +5,6 @@ import Container from '../components/Atoms/Container'
 import SmallTitle from '../components/Atoms/SmallTitle'
 import colors from '../constants/colors'
 import front from '../public/img/tarieven/front.jpg'
-import Image from 'next/image'
 import { mq } from 'constants/mediaQueries'
 import Head from 'next/head'
 
@@ -18,9 +17,8 @@ const Tariffs: NextPage = () => {
         <title>{t('tarrifs.title')}</title>
       </Head>
       <ImageContainer>
-        <Image src={front} fill style={{ objectFit: 'cover' }} alt="Picture of the whole area" />
+        <img src={typeof front === 'string' ? front : front.src} alt="Picture of the whole area" />
       </ImageContainer>
-
       <Container>
         <h1>{t('tarrifs.tarrifs')}</h1>
         <Grid>
@@ -49,22 +47,70 @@ const Tariffs: NextPage = () => {
 const ImageContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 60vh;
-  min-height: 400px;
+  height: 40vh;
+  min-height: 300px;
+  overflow: hidden;
+
+  @media (min-width: ${mq.mobile}) {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 `
 
 const TextDiv = styled.div`
-  background-color: ${colors.main}15;
-  padding: 2rem;
+  background: ${colors.beige};
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: ${mq.mobile}) {
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: ${mq.tablet}) {
+    padding: 3.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: ${colors.text.primary};
+
+    @media (min-width: ${mq.mobile}) {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  div {
+    color: ${colors.text.secondary};
+    line-height: 1.7;
+    font-size: 0.95rem;
+
+    @media (min-width: ${mq.mobile}) {
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+  }
 `
 
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
+  gap: 2rem;
   margin-bottom: 4rem;
 
   @media (min-width: ${mq.tablet}) {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 `
 

@@ -11,22 +11,48 @@ import * as common_fr from '../translations/fr/common.json'
 import Layout from '../components/Layout'
 
 const GlobalStyle = createGlobalStyle`
-  html {
+  * {
     box-sizing: border-box;
+  }
+
+  html {
     background: white;
-    display:block;
+    display: block;
     height: 100%;
-    margin:0 0;
+    margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
 
   body {
     margin: 0;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1e293b;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e293b;
+    margin-top: 0;
   }
 
   p {
-    line-height: 1.6rem
+    line-height: 1.7;
+    margin: 0 0 1rem 0;
+  }
+
+  a {
+    transition: all 0.3s ease;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `
 
