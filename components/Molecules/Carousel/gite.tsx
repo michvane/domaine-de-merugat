@@ -10,12 +10,12 @@ import AnimatedSection from '../../Atoms/AnimatedSection'
 const images = [
   { src: '/img/gite/image00077.jpeg' },
   { src: '/img/gite/image00021.jpeg' },
-  { src: '/img/gite/image00032.jpeg' },
   { src: '/img/gite/image00034.jpeg' },
+  { src: '/img/gite/image00058.jpeg' },
+  { src: '/img/gite/image00052.jpeg' },
+  { src: '/img/gite/image00032.jpeg' },
   { src: '/img/gite/image00044.jpeg' },
   { src: '/img/gite/image00045.jpeg' },
-  { src: '/img/gite/image00052.jpeg' },
-  { src: '/img/gite/image00058.jpeg' },
   { src: '/img/gite/image00064.jpeg' },
 ]
 
