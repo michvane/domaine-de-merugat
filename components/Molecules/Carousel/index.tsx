@@ -13,6 +13,7 @@ const images = [
   { src: '/img/front-view-sm.jpg' },
   { src: '/img/outside-2.jpg' },
   { src: '/img/outside-1.jpg' },
+  { src: '/img/image00072.jpeg' },
 ]
 
 const CarouselComponent: React.FC = () => {
@@ -22,15 +23,14 @@ const CarouselComponent: React.FC = () => {
         <Swiper
         breakpoints={{
           640: {
-            width: 640,
             slidesPerView: 1,
+            spaceBetween: 16,
           },
           768: {
-            width: 768,
             slidesPerView: 2,
+            spaceBetween: 16,
           },
           1200: {
-            width: 1200,
             slidesPerView: 3.2,
             spaceBetween: 24,
           },
@@ -38,15 +38,16 @@ const CarouselComponent: React.FC = () => {
         modules={[Navigation]}
         navigation
         spaceBetween={16}
+        roundLengths
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         autoplay
       >
         {images.map((img) => (
           <SwiperSlide key={img.src}>
-            <div style={{ pointerEvents: 'none' }}>
-              <img src={img.src} style={{ width: '100%', pointerEvents: 'none' }} />
-            </div>
+            <SlideFrame>
+              <img src={img.src} alt="" />
+            </SlideFrame>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -59,8 +60,27 @@ import colors from '../../../constants/colors'
 
 import { mq } from 'constants/mediaQueries'
 
+/** Same aspect box for every slide; `object-fit: cover` avoids squashing (crops edges if needed). */
+const SlideFrame = styled.div`
+  pointer-events: none;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+`
+
 const StyledCarousel = styled.div`
   width: 100%;
+  max-width: 100%;
   margin-bottom: 3rem;
   padding: 0.5rem 0;
 
@@ -69,16 +89,15 @@ const StyledCarousel = styled.div`
     padding: 1rem 0;
   }
 
+  .swiper {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .swiper-slide {
     border-radius: 8px;
     overflow: hidden;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+    height: auto;
   }
 
   .swiper-button-next,

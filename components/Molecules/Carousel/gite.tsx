@@ -8,16 +8,15 @@ import 'swiper/css'
 import AnimatedSection from '../../Atoms/AnimatedSection'
 
 const images = [
-  { src: '/img/gite/gite.jpg' },
-  { src: '/img/gite/gite-9.jpg' },
-  { src: '/img/gite/gite-1.jpg' },
-  { src: '/img/gite/gite-2.jpg' },
-  { src: '/img/gite/gite-3.jpg' },
-  { src: '/img/gite/gite-8.jpg' },
-  { src: '/img/gite/gite-4.jpg' },
-  { src: '/img/gite/gite-5.jpg' },
-  { src: '/img/gite/gite-6.jpg' },
-  { src: '/img/gite/gite-7.jpg' },
+  { src: '/img/gite/image00077.jpeg' },
+  { src: '/img/gite/image00021.jpeg' },
+  { src: '/img/gite/image00032.jpeg' },
+  { src: '/img/gite/image00034.jpeg' },
+  { src: '/img/gite/image00044.jpeg' },
+  { src: '/img/gite/image00045.jpeg' },
+  { src: '/img/gite/image00052.jpeg' },
+  { src: '/img/gite/image00058.jpeg' },
+  { src: '/img/gite/image00064.jpeg' },
 ]
 
 const GiteCarousel: React.FC = () => {
@@ -50,9 +49,9 @@ const GiteCarousel: React.FC = () => {
       >
         {images.map((img) => (
           <SwiperSlide key={img.src}>
-            <div style={{ pointerEvents: 'none' }}>
-              <img src={img.src} style={{ width: '100%', pointerEvents: 'none' }} />
-            </div>
+            <SlideFrame>
+              <img src={img.src} alt="" />
+            </SlideFrame>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -64,6 +63,24 @@ const GiteCarousel: React.FC = () => {
 import colors from '../../../constants/colors'
 
 import { mq } from 'constants/mediaQueries'
+
+/** Same aspect box for every slide; `object-fit: cover` avoids squashing (crops edges if needed). */
+const SlideFrame = styled.div`
+  pointer-events: none;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+`
 
 const StyledCarousel = styled.div`
   width: 100%;
@@ -78,13 +95,7 @@ const StyledCarousel = styled.div`
   .swiper-slide {
     border-radius: 8px;
     overflow: hidden;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+    height: auto;
   }
 
   .swiper-button-next,

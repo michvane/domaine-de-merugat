@@ -13,6 +13,7 @@ const images = [
   { src: '/img/bnb/bnb-4.jpg' },
   { src: '/img/bnb/bnb-3.jpg' },
   { src: '/img/bnb/food.jpg' },
+  { src: '/img/bnb/image00088.jpeg' },
   { src: '/img/bnb/pool.jpg' },
 ]
 
